@@ -16,6 +16,7 @@ fetch("results.json")
     teamsList.appendChild(createHeader());
 
     obj.soloMales.forEach((a) => {
+      if (a.completedRounds == 0) return;
       const li = document.createElement("li");
       li.classList.add("athlete");
       li.onclick = () => showSolo(a);
@@ -26,6 +27,7 @@ fetch("results.json")
       soloMalesList.appendChild(li);
     });
     obj.soloFemales.forEach((a) => {
+      if (a.completedRounds == 0) return;
       const li = document.createElement("li");
       li.onclick = () => showSolo(a);
       li.classList.add("athlete");
@@ -36,6 +38,7 @@ fetch("results.json")
       soloFemalesList.appendChild(li);
     });
     obj.teams.forEach((a) => {
+      if (a.completedRounds == 0) return;
       const li = document.createElement("li");
       li.classList.add("athlete");
       li.onclick = () => showTeam(a);
