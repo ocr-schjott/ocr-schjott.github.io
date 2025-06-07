@@ -49,6 +49,14 @@ ul {
   font-weight: bold;
 }
 
+.athlete {
+  cursor: pointer;
+}
+
+.athlete:hover {
+  background: rgb(49, 49, 63);
+}
+
 .name {
   flex: 1;
 }
@@ -56,7 +64,7 @@ ul {
 .details {
   position: fixed;
   inset: 0;
-  background: #2a2a35;
+  background-color: #2a2a35;
   padding: 1rem;
 
   & ul {
