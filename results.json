@@ -1,0 +1,2141 @@
+{
+    "id": 1,
+    "name": "6 timers OCR Sommer edition",
+    "date": "2025-06-07",
+    "startTime": "10:00:00",
+    "endTime": "16:00:00",
+    "teamStartTime": "10:15:00",
+    "teamEndTime": "16:15:00",
+    "numberOfAthletes": "30/17",
+    "live": true,
+    "soloMales": [
+        {
+            "id": 18,
+            "rank": 1,
+            "startNumber": 32,
+            "firstName": "Jonas",
+            "lastName": "Drescher",
+            "clubOrCompany": "",
+            "rfid": "0169308676",
+            "gender": "M",
+            "completedRounds": 8,
+            "registrations": [
+                {
+                    "code": "0169308676",
+                    "time": "2025-06-07T10:35:41.114079"
+                },
+                {
+                    "code": "0169308676",
+                    "time": "2025-06-07T11:11:56.962812"
+                },
+                {
+                    "code": "0169308676",
+                    "time": "2025-06-07T11:48:29.980822"
+                },
+                {
+                    "code": "0169308676",
+                    "time": "2025-06-07T12:28:59.777792"
+                },
+                {
+                    "code": "0169308676",
+                    "time": "2025-06-07T13:13:38.977668"
+                },
+                {
+                    "code": "0169308676",
+                    "time": "2025-06-07T13:55:28.092860"
+                },
+                {
+                    "code": "0169308676",
+                    "time": "2025-06-07T14:36:08.775144"
+                },
+                {
+                    "code": "0169308676",
+                    "time": "2025-06-07T15:20:27.709332"
+                }
+            ],
+            "rounds": [
+                {
+                    "registrationTime": "2025-06-07T10:35:41.114079",
+                    "duration": 2141114
+                },
+                {
+                    "registrationTime": "2025-06-07T11:11:56.962812",
+                    "duration": 2175848
+                },
+                {
+                    "registrationTime": "2025-06-07T11:48:29.980822",
+                    "duration": 2193018
+                },
+                {
+                    "registrationTime": "2025-06-07T12:28:59.777792",
+                    "duration": 2429796
+                },
+                {
+                    "registrationTime": "2025-06-07T13:13:38.977668",
+                    "duration": 2679199
+                },
+                {
+                    "registrationTime": "2025-06-07T13:55:28.09286",
+                    "duration": 2509115
+                },
+                {
+                    "registrationTime": "2025-06-07T14:36:08.775144",
+                    "duration": 2440682
+                },
+                {
+                    "registrationTime": "2025-06-07T15:20:27.709332",
+                    "duration": 2658934
+                }
+            ]
+        },
+        {
+            "id": 19,
+            "rank": 2,
+            "startNumber": 34,
+            "firstName": "Aksel",
+            "lastName": "Hallundbæk",
+            "clubOrCompany": "Køleboxen",
+            "rfid": "0302105348",
+            "gender": "M",
+            "completedRounds": 8,
+            "registrations": [
+                {
+                    "code": "0302105348",
+                    "time": "2025-06-07T10:42:38.634577"
+                },
+                {
+                    "code": "0302105348",
+                    "time": "2025-06-07T11:23:16.663386"
+                },
+                {
+                    "code": "0302105348",
+                    "time": "2025-06-07T12:04:24.528526"
+                },
+                {
+                    "code": "0302105348",
+                    "time": "2025-06-07T12:47:06.306763"
+                },
+                {
+                    "code": "0302105348",
+                    "time": "2025-06-07T13:31:00.948630"
+                },
+                {
+                    "code": "0302105348",
+                    "time": "2025-06-07T14:15:09.238261"
+                },
+                {
+                    "code": "0302105348",
+                    "time": "2025-06-07T14:59:29.847257"
+                },
+                {
+                    "code": "0302105348",
+                    "time": "2025-06-07T15:44:09.660412"
+                }
+            ],
+            "rounds": [
+                {
+                    "registrationTime": "2025-06-07T10:42:38.634577",
+                    "duration": 2558634
+                },
+                {
+                    "registrationTime": "2025-06-07T11:23:16.663386",
+                    "duration": 2438028
+                },
+                {
+                    "registrationTime": "2025-06-07T12:04:24.528526",
+                    "duration": 2467865
+                },
+                {
+                    "registrationTime": "2025-06-07T12:47:06.306763",
+                    "duration": 2561778
+                },
+                {
+                    "registrationTime": "2025-06-07T13:31:00.94863",
+                    "duration": 2634641
+                },
+                {
+                    "registrationTime": "2025-06-07T14:15:09.238261",
+                    "duration": 2648289
+                },
+                {
+                    "registrationTime": "2025-06-07T14:59:29.847257",
+                    "duration": 2660608
+                },
+                {
+                    "registrationTime": "2025-06-07T15:44:09.660412",
+                    "duration": 2679813
+                }
+            ]
+        },
+        {
+            "id": 13,
+            "rank": 3,
+            "startNumber": 24,
+            "firstName": "Henrik",
+            "lastName": "Pilborg",
+            "clubOrCompany": "Pilborg Fitness :-)",
+            "rfid": "0168715268",
+            "gender": "M",
+            "completedRounds": 7,
+            "registrations": [
+                {
+                    "code": "0168715268",
+                    "time": "2025-06-07T10:40:41.260136"
+                },
+                {
+                    "code": "0168715268",
+                    "time": "2025-06-07T11:26:59.365686"
+                },
+                {
+                    "code": "0168715268",
+                    "time": "2025-06-07T12:06:44.345562"
+                },
+                {
+                    "code": "0168715268",
+                    "time": "2025-06-07T12:50:38.007211"
+                },
+                {
+                    "code": "0168715268",
+                    "time": "2025-06-07T13:36:01.470882"
+                },
+                {
+                    "code": "0168715268",
+                    "time": "2025-06-07T14:29:30.986681"
+                },
+                {
+                    "code": "0168715268",
+                    "time": "2025-06-07T15:27:19.952826"
+                }
+            ],
+            "rounds": [
+                {
+                    "registrationTime": "2025-06-07T10:40:41.260136",
+                    "duration": 2441260
+                },
+                {
+                    "registrationTime": "2025-06-07T11:26:59.365686",
+                    "duration": 2778105
+                },
+                {
+                    "registrationTime": "2025-06-07T12:06:44.345562",
+                    "duration": 2384979
+                },
+                {
+                    "registrationTime": "2025-06-07T12:50:38.007211",
+                    "duration": 2633661
+                },
+                {
+                    "registrationTime": "2025-06-07T13:36:01.470882",
+                    "duration": 2723463
+                },
+                {
+                    "registrationTime": "2025-06-07T14:29:30.986681",
+                    "duration": 3209515
+                },
+                {
+                    "registrationTime": "2025-06-07T15:27:19.952826",
+                    "duration": 3468966
+                }
+            ]
+        },
+        {
+            "id": 26,
+            "rank": 4,
+            "startNumber": 42,
+            "firstName": "Henrik",
+            "lastName": "Hahn",
+            "clubOrCompany": "",
+            "rfid": "0171790084",
+            "gender": "M",
+            "completedRounds": 7,
+            "registrations": [
+                {
+                    "code": "0171790084",
+                    "time": "2025-06-07T10:43:15.472915"
+                },
+                {
+                    "code": "0171790084",
+                    "time": "2025-06-07T11:24:55.112620"
+                },
+                {
+                    "code": "0171790084",
+                    "time": "2025-06-07T12:05:06.203038"
+                },
+                {
+                    "code": "0171790084",
+                    "time": "2025-06-07T12:50:02.107072"
+                },
+                {
+                    "code": "0171790084",
+                    "time": "2025-06-07T13:41:52.871492"
+                },
+                {
+                    "code": "0171790084",
+                    "time": "2025-06-07T14:47:38.687012"
+                },
+                {
+                    "code": "0171790084",
+                    "time": "2025-06-07T15:40:33.036323"
+                }
+            ],
+            "rounds": [
+                {
+                    "registrationTime": "2025-06-07T10:43:15.472915",
+                    "duration": 2595472
+                },
+                {
+                    "registrationTime": "2025-06-07T11:24:55.11262",
+                    "duration": 2499639
+                },
+                {
+                    "registrationTime": "2025-06-07T12:05:06.203038",
+                    "duration": 2411090
+                },
+                {
+                    "registrationTime": "2025-06-07T12:50:02.107072",
+                    "duration": 2695904
+                },
+                {
+                    "registrationTime": "2025-06-07T13:41:52.871492",
+                    "duration": 3110764
+                },
+                {
+                    "registrationTime": "2025-06-07T14:47:38.687012",
+                    "duration": 3945815
+                },
+                {
+                    "registrationTime": "2025-06-07T15:40:33.036323",
+                    "duration": 3174349
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "rank": 5,
+            "startNumber": 8,
+            "firstName": "Andreas Munk",
+            "lastName": "Asmussen",
+            "clubOrCompany": "Team Romkugler",
+            "rfid": "0301222916",
+            "gender": "M",
+            "completedRounds": 6,
+            "registrations": [
+                {
+                    "code": "0301222916",
+                    "time": "2025-06-07T10:55:07.495375"
+                },
+                {
+                    "code": "0301222916",
+                    "time": "2025-06-07T11:48:11.650805"
+                },
+                {
+                    "code": "0301222916",
+                    "time": "2025-06-07T12:44:07.146911"
+                },
+                {
+                    "code": "0301222916",
+                    "time": "2025-06-07T13:42:39.390716"
+                },
+                {
+                    "code": "0301222916",
+                    "time": "2025-06-07T14:37:24.277481"
+                },
+                {
+                    "code": "0301222916",
+                    "time": "2025-06-07T15:22:26.443513"
+                }
+            ],
+            "rounds": [
+                {
+                    "registrationTime": "2025-06-07T10:55:07.495375",
+                    "duration": 3307495
+                },
+                {
+                    "registrationTime": "2025-06-07T11:48:11.650805",
+                    "duration": 3184155
+                },
+                {
+                    "registrationTime": "2025-06-07T12:44:07.146911",
+                    "duration": 3355496
+                },
+                {
+                    "registrationTime": "2025-06-07T13:42:39.390716",
+                    "duration": 3512243
+                },
+                {
+                    "registrationTime": "2025-06-07T14:37:24.277481",
+                    "duration": 3284886
+                },
+                {
+                    "registrationTime": "2025-06-07T15:22:26.443513",
+                    "duration": 2702166
+                }
+            ]
+        },
+        {
+            "id": 9,
+            "rank": 6,
+            "startNumber": 18,
+            "firstName": "Niklas",
+            "lastName": "Elsgart",
+            "clubOrCompany": "Gibbon Gym",
+            "rfid": "0295527684",
+            "gender": "M",
+            "completedRounds": 6,
+            "registrations": [
+                {
+                    "code": "0295527684",
+                    "time": "2025-06-07T10:47:08.839115"
+                },
+                {
+                    "code": "0295527684",
+                    "time": "2025-06-07T11:39:55.268150"
+                },
+                {
+                    "code": "0295527684",
+                    "time": "2025-06-07T12:32:29.750433"
+                },
+                {
+                    "code": "0295527684",
+                    "time": "2025-06-07T13:31:54.833227"
+                },
+                {
+                    "code": "0295527684",
+                    "time": "2025-06-07T14:32:51.069765"
+                },
+                {
+                    "code": "0295527684",
+                    "time": "2025-06-07T15:26:53.174355"
+                }
+            ],
+            "rounds": [
+                {
+                    "registrationTime": "2025-06-07T10:47:08.839115",
+                    "duration": 2828839
+                },
+                {
+                    "registrationTime": "2025-06-07T11:39:55.26815",
+                    "duration": 3166429
+                },
+                {
+                    "registrationTime": "2025-06-07T12:32:29.750433",
+                    "duration": 3154482
+                },
+                {
+                    "registrationTime": "2025-06-07T13:31:54.833227",
+                    "duration": 3565082
+                },
+                {
+                    "registrationTime": "2025-06-07T14:32:51.069765",
+                    "duration": 3656236
+                },
+                {
+                    "registrationTime": "2025-06-07T15:26:53.174355",
+                    "duration": 3242104
+                }
+            ]
+        },
+        {
+            "id": 21,
+            "rank": 7,
+            "startNumber": 36,
+            "firstName": "Anders",
+            "lastName": "Juhl Mathiassen",
+            "clubOrCompany": "Køleboxen",
+            "rfid": "0296159492",
+            "gender": "M",
+            "completedRounds": 6,
+            "registrations": [
+                {
+                    "code": "0296159492",
+                    "time": "2025-06-07T10:53:09.439921"
+                },
+                {
+                    "code": "0296159492",
+                    "time": "2025-06-07T11:47:41.834005"
+                },
+                {
+                    "code": "0296159492",
+                    "time": "2025-06-07T12:43:20.469382"
+                },
+                {
+                    "code": "0296159492",
+                    "time": "2025-06-07T13:35:26.030750"
+                },
+                {
+                    "code": "0296159492",
+                    "time": "2025-06-07T14:31:37.536563"
+                },
+                {
+                    "code": "0296159492",
+                    "time": "2025-06-07T15:30:44.833668"
+                }
+            ],
+            "rounds": [
+                {
+                    "registrationTime": "2025-06-07T10:53:09.439921",
+                    "duration": 3189439
+                },
+                {
+                    "registrationTime": "2025-06-07T11:47:41.834005",
+                    "duration": 3272394
+                },
+                {
+                    "registrationTime": "2025-06-07T12:43:20.469382",
+                    "duration": 3338635
+                },
+                {
+                    "registrationTime": "2025-06-07T13:35:26.03075",
+                    "duration": 3125561
+                },
+                {
+                    "registrationTime": "2025-06-07T14:31:37.536563",
+                    "duration": 3371505
+                },
+                {
+                    "registrationTime": "2025-06-07T15:30:44.833668",
+                    "duration": 3547297
+                }
+            ]
+        },
+        {
+            "id": 5,
+            "rank": 8,
+            "startNumber": 10,
+            "firstName": "Michael",
+            "lastName": "Frikke",
+            "clubOrCompany": "",
+            "rfid": "0307784964",
+            "gender": "M",
+            "completedRounds": 5,
+            "registrations": [
+                {
+                    "code": "0307784964",
+                    "time": "2025-06-07T11:05:41.631443"
+                },
+                {
+                    "code": "0307784964",
+                    "time": "2025-06-07T12:11:46.777075"
+                },
+                {
+                    "code": "0307784964",
+                    "time": "2025-06-07T13:23:37.399952"
+                },
+                {
+                    "code": "0307784964",
+                    "time": "2025-06-07T14:24:01.800953"
+                },
+                {
+                    "code": "0307784964",
+                    "time": "2025-06-07T15:08:42.177980"
+                }
+            ],
+            "rounds": [
+                {
+                    "registrationTime": "2025-06-07T11:05:41.631443",
+                    "duration": 3941631
+                },
+                {
+                    "registrationTime": "2025-06-07T12:11:46.777075",
+                    "duration": 3965145
+                },
+                {
+                    "registrationTime": "2025-06-07T13:23:37.399952",
+                    "duration": 4310622
+                },
+                {
+                    "registrationTime": "2025-06-07T14:24:01.800953",
+                    "duration": 3624401
+                },
+                {
+                    "registrationTime": "2025-06-07T15:08:42.17798",
+                    "duration": 2680377
+                }
+            ]
+        },
+        {
+            "id": 10,
+            "rank": 9,
+            "startNumber": 20,
+            "firstName": "Asger",
+            "lastName": "Pedersen",
+            "clubOrCompany": "",
+            "rfid": "0169770500",
+            "gender": "M",
+            "completedRounds": 5,
+            "registrations": [
+                {
+                    "code": "0169770500",
+                    "time": "2025-06-07T11:03:09.702680"
+                },
+                {
+                    "code": "0169770500",
+                    "time": "2025-06-07T12:05:20.856005"
+                },
+                {
+                    "code": "0169770500",
+                    "time": "2025-06-07T13:14:00.073905"
+                },
+                {
+                    "code": "0169770500",
+                    "time": "2025-06-07T14:14:34.707324"
+                },
+                {
+                    "code": "0169770500",
+                    "time": "2025-06-07T15:21:06.230021"
+                }
+            ],
+            "rounds": [
+                {
+                    "registrationTime": "2025-06-07T11:03:09.70268",
+                    "duration": 3789702
+                },
+                {
+                    "registrationTime": "2025-06-07T12:05:20.856005",
+                    "duration": 3731153
+                },
+                {
+                    "registrationTime": "2025-06-07T13:14:00.073905",
+                    "duration": 4119217
+                },
+                {
+                    "registrationTime": "2025-06-07T14:14:34.707324",
+                    "duration": 3634633
+                },
+                {
+                    "registrationTime": "2025-06-07T15:21:06.230021",
+                    "duration": 3991522
+                }
+            ]
+        },
+        {
+            "id": 15,
+            "rank": 10,
+            "startNumber": 28,
+            "firstName": "Peter",
+            "lastName": "Warming-hansen",
+            "clubOrCompany": "",
+            "rfid": "0300019972",
+            "gender": "M",
+            "completedRounds": 5,
+            "registrations": [
+                {
+                    "code": "0300019972",
+                    "time": "2025-06-07T10:58:10.281816"
+                },
+                {
+                    "code": "0300019972",
+                    "time": "2025-06-07T12:04:52.404461"
+                },
+                {
+                    "code": "0300019972",
+                    "time": "2025-06-07T13:24:11.624417"
+                },
+                {
+                    "code": "0300019972",
+                    "time": "2025-06-07T14:47:28.695834"
+                },
+                {
+                    "code": "0300019972",
+                    "time": "2025-06-07T15:39:26.591369"
+                }
+            ],
+            "rounds": [
+                {
+                    "registrationTime": "2025-06-07T10:58:10.281816",
+                    "duration": 3490281
+                },
+                {
+                    "registrationTime": "2025-06-07T12:04:52.404461",
+                    "duration": 4002122
+                },
+                {
+                    "registrationTime": "2025-06-07T13:24:11.624417",
+                    "duration": 4759219
+                },
+                {
+                    "registrationTime": "2025-06-07T14:47:28.695834",
+                    "duration": 4997071
+                },
+                {
+                    "registrationTime": "2025-06-07T15:39:26.591369",
+                    "duration": 3117895
+                }
+            ]
+        },
+        {
+            "id": 11,
+            "rank": 11,
+            "startNumber": 22,
+            "firstName": "Kasper",
+            "lastName": "Kaas-Melsen",
+            "clubOrCompany": "",
+            "rfid": "0169119492",
+            "gender": "M",
+            "completedRounds": 5,
+            "registrations": [
+                {
+                    "code": "0169119492",
+                    "time": "2025-06-07T11:02:47.544076"
+                },
+                {
+                    "code": "0169119492",
+                    "time": "2025-06-07T12:12:29.575510"
+                },
+                {
+                    "code": "0169119492",
+                    "time": "2025-06-07T13:18:46.572713"
+                },
+                {
+                    "code": "0169119492",
+                    "time": "2025-06-07T14:34:49.390862"
+                },
+                {
+                    "code": "0169119492",
+                    "time": "2025-06-07T15:43:46.315754"
+                }
+            ],
+            "rounds": [
+                {
+                    "registrationTime": "2025-06-07T11:02:47.544076",
+                    "duration": 3767544
+                },
+                {
+                    "registrationTime": "2025-06-07T12:12:29.57551",
+                    "duration": 4182031
+                },
+                {
+                    "registrationTime": "2025-06-07T13:18:46.572713",
+                    "duration": 3976997
+                },
+                {
+                    "registrationTime": "2025-06-07T14:34:49.390862",
+                    "duration": 4562818
+                },
+                {
+                    "registrationTime": "2025-06-07T15:43:46.315754",
+                    "duration": 4136924
+                }
+            ]
+        },
+        {
+            "id": 25,
+            "rank": 12,
+            "startNumber": 40,
+            "firstName": "Eskild",
+            "lastName": "Slot",
+            "clubOrCompany": "OCR Nordjylland",
+            "rfid": "0304082948",
+            "gender": "M",
+            "completedRounds": 5,
+            "registrations": [
+                {
+                    "code": "0304082948",
+                    "time": "2025-06-07T10:52:56.445898"
+                },
+                {
+                    "code": "0304082948",
+                    "time": "2025-06-07T11:52:28.960069"
+                },
+                {
+                    "code": "0304082948",
+                    "time": "2025-06-07T12:49:13.956484"
+                },
+                {
+                    "code": "0304082948",
+                    "time": "2025-06-07T13:52:24.322275"
+                },
+                {
+                    "code": "0304082948",
+                    "time": "2025-06-07T15:46:51.785737"
+                }
+            ],
+            "rounds": [
+                {
+                    "registrationTime": "2025-06-07T10:52:56.445898",
+                    "duration": 3176445
+                },
+                {
+                    "registrationTime": "2025-06-07T11:52:28.960069",
+                    "duration": 3572514
+                },
+                {
+                    "registrationTime": "2025-06-07T12:49:13.956484",
+                    "duration": 3404996
+                },
+                {
+                    "registrationTime": "2025-06-07T13:52:24.322275",
+                    "duration": 3790365
+                },
+                {
+                    "registrationTime": "2025-06-07T15:46:51.785737",
+                    "duration": 6867463
+                }
+            ]
+        },
+        {
+            "id": 14,
+            "rank": 13,
+            "startNumber": 26,
+            "firstName": "Jan",
+            "lastName": "Lindbjerg",
+            "clubOrCompany": "",
+            "rfid": "0307037956",
+            "gender": "M",
+            "completedRounds": 4,
+            "registrations": [
+                {
+                    "code": "0307037956",
+                    "time": "2025-06-07T11:42:55.040133"
+                },
+                {
+                    "code": "0307037956",
+                    "time": "2025-06-07T13:00:54.885205"
+                },
+                {
+                    "code": "0307037956",
+                    "time": "2025-06-07T14:17:05.840476"
+                },
+                {
+                    "code": "0307037956",
+                    "time": "2025-06-07T15:43:22.406488"
+                }
+            ],
+            "rounds": [
+                {
+                    "registrationTime": "2025-06-07T11:42:55.040133",
+                    "duration": 6175040
+                },
+                {
+                    "registrationTime": "2025-06-07T13:00:54.885205",
+                    "duration": 4679845
+                },
+                {
+                    "registrationTime": "2025-06-07T14:17:05.840476",
+                    "duration": 4570955
+                },
+                {
+                    "registrationTime": "2025-06-07T15:43:22.406488",
+                    "duration": 5176566
+                }
+            ]
+        },
+        {
+            "id": 7,
+            "rank": 14,
+            "startNumber": 14,
+            "firstName": "Brian",
+            "lastName": "Nonbo Lauridsen",
+            "clubOrCompany": "",
+            "rfid": "0308097540",
+            "gender": "M",
+            "completedRounds": 3,
+            "registrations": [
+                {
+                    "code": "0308097540",
+                    "time": "2025-06-07T11:07:19.044068"
+                },
+                {
+                    "code": "0308097540",
+                    "time": "2025-06-07T12:17:52.518413"
+                },
+                {
+                    "code": "0308097540",
+                    "time": "2025-06-07T13:24:50.833040"
+                }
+            ],
+            "rounds": [
+                {
+                    "registrationTime": "2025-06-07T11:07:19.044068",
+                    "duration": 4039044
+                },
+                {
+                    "registrationTime": "2025-06-07T12:17:52.518413",
+                    "duration": 4233474
+                },
+                {
+                    "registrationTime": "2025-06-07T13:24:50.83304",
+                    "duration": 4018314
+                }
+            ]
+        },
+        {
+            "id": 17,
+            "rank": 15,
+            "startNumber": 30,
+            "firstName": "Kenneth",
+            "lastName": "Dyja",
+            "clubOrCompany": "",
+            "rfid": "0296036612",
+            "gender": "M",
+            "completedRounds": 3,
+            "registrations": [
+                {
+                    "code": "0296036612",
+                    "time": "2025-06-07T11:24:18.973020"
+                },
+                {
+                    "code": "0296036612",
+                    "time": "2025-06-07T13:09:58.882814"
+                },
+                {
+                    "code": "0296036612",
+                    "time": "2025-06-07T15:05:47.663264"
+                }
+            ],
+            "rounds": [
+                {
+                    "registrationTime": "2025-06-07T11:24:18.97302",
+                    "duration": 5058973
+                },
+                {
+                    "registrationTime": "2025-06-07T13:09:58.882814",
+                    "duration": 6339909
+                },
+                {
+                    "registrationTime": "2025-06-07T15:05:47.663264",
+                    "duration": 6948780
+                }
+            ]
+        },
+        {
+            "id": 29,
+            "rank": 16,
+            "startNumber": 46,
+            "firstName": "Jack",
+            "lastName": "Ebsen",
+            "clubOrCompany": "",
+            "rfid": "0305091844",
+            "gender": "M",
+            "completedRounds": 3,
+            "registrations": [
+                {
+                    "code": "0305091844",
+                    "time": "2025-06-07T12:10:29.225337"
+                },
+                {
+                    "code": "0305091844",
+                    "time": "2025-06-07T14:41:31.740127"
+                },
+                {
+                    "code": "0305091844",
+                    "time": "2025-06-07T15:56:12.873064"
+                }
+            ],
+            "rounds": [
+                {
+                    "registrationTime": "2025-06-07T12:10:29.225337",
+                    "duration": 7829225
+                },
+                {
+                    "registrationTime": "2025-06-07T14:41:31.740127",
+                    "duration": 9062514
+                },
+                {
+                    "registrationTime": "2025-06-07T15:56:12.873064",
+                    "duration": 4481132
+                }
+            ]
+        },
+        {
+            "id": 30,
+            "rank": 17,
+            "startNumber": 48,
+            "firstName": "Marius",
+            "lastName": "Thøgersen",
+            "clubOrCompany": "Schjøtts diciple",
+            "rfid": "0169486340",
+            "gender": "M",
+            "completedRounds": 1,
+            "registrations": [
+                {
+                    "code": "0169486340",
+                    "time": "2025-06-07T11:03:59.717395"
+                }
+            ],
+            "rounds": [
+                {
+                    "registrationTime": "2025-06-07T11:03:59.717395",
+                    "duration": 3839717
+                }
+            ]
+        },
+        {
+            "id": 1,
+            "rank": 18,
+            "startNumber": 4,
+            "firstName": "Dennis Valentin",
+            "lastName": "Madsen",
+            "clubOrCompany": "OCR Nordjylland",
+            "rfid": "0172085252",
+            "gender": "M",
+            "completedRounds": 0,
+            "registrations": [],
+            "rounds": []
+        },
+        {
+            "id": 2,
+            "rank": 18,
+            "startNumber": 6,
+            "firstName": "Simon",
+            "lastName": "Rasmussen",
+            "clubOrCompany": "Ocr Nordjylland",
+            "rfid": "0172887044",
+            "gender": "M",
+            "completedRounds": 0,
+            "registrations": [],
+            "rounds": []
+        },
+        {
+            "id": 6,
+            "rank": 18,
+            "startNumber": 12,
+            "firstName": "Christopher",
+            "lastName": "Schmitz",
+            "clubOrCompany": "",
+            "rfid": "0308377092",
+            "gender": "M",
+            "completedRounds": 0,
+            "registrations": [],
+            "rounds": []
+        },
+        {
+            "id": 8,
+            "rank": 18,
+            "startNumber": 16,
+            "firstName": "Martin",
+            "lastName": "Bøgh jensen",
+            "clubOrCompany": "Hq68",
+            "rfid": "0170015236",
+            "gender": "M",
+            "completedRounds": 0,
+            "registrations": [],
+            "rounds": []
+        },
+        {
+            "id": 22,
+            "rank": 18,
+            "startNumber": 38,
+            "firstName": "Emil",
+            "lastName": "Larsen",
+            "clubOrCompany": "",
+            "rfid": "0171863300",
+            "gender": "M",
+            "completedRounds": 0,
+            "registrations": [],
+            "rounds": []
+        },
+        {
+            "id": 27,
+            "rank": 18,
+            "startNumber": 44,
+            "firstName": "Henrik",
+            "lastName": "Hahn",
+            "clubOrCompany": "Baghaven",
+            "rfid": "0169653252",
+            "gender": "M",
+            "completedRounds": 0,
+            "registrations": [],
+            "rounds": []
+        }
+    ],
+    "soloFemales": [
+        {
+            "id": 23,
+            "rank": 1,
+            "startNumber": 11,
+            "firstName": "Inga",
+            "lastName": "Palaikiene",
+            "clubOrCompany": "",
+            "rfid": "0170096132",
+            "gender": "F",
+            "completedRounds": 5,
+            "registrations": [
+                {
+                    "code": "0170096132",
+                    "time": "2025-06-07T11:08:21.781767"
+                },
+                {
+                    "code": "0170096132",
+                    "time": "2025-06-07T12:13:06.747466"
+                },
+                {
+                    "code": "0170096132",
+                    "time": "2025-06-07T13:19:55.879643"
+                },
+                {
+                    "code": "0170096132",
+                    "time": "2025-06-07T14:33:34.726317"
+                },
+                {
+                    "code": "0170096132",
+                    "time": "2025-06-07T15:35:14.718928"
+                }
+            ],
+            "rounds": [
+                {
+                    "registrationTime": "2025-06-07T11:08:21.781767",
+                    "duration": 4101781
+                },
+                {
+                    "registrationTime": "2025-06-07T12:13:06.747466",
+                    "duration": 3884965
+                },
+                {
+                    "registrationTime": "2025-06-07T13:19:55.879643",
+                    "duration": 4009132
+                },
+                {
+                    "registrationTime": "2025-06-07T14:33:34.726317",
+                    "duration": 4418846
+                },
+                {
+                    "registrationTime": "2025-06-07T15:35:14.718928",
+                    "duration": 3699992
+                }
+            ]
+        },
+        {
+            "id": 16,
+            "rank": 2,
+            "startNumber": 7,
+            "firstName": "Sandra",
+            "lastName": "Petersen",
+            "clubOrCompany": "Køleboxen / Varmeværket",
+            "rfid": "0169293828",
+            "gender": "F",
+            "completedRounds": 5,
+            "registrations": [
+                {
+                    "code": "0169293828",
+                    "time": "2025-06-07T11:02:53.752277"
+                },
+                {
+                    "code": "0169293828",
+                    "time": "2025-06-07T12:09:34.468815"
+                },
+                {
+                    "code": "0169293828",
+                    "time": "2025-06-07T13:15:06.481089"
+                },
+                {
+                    "code": "0169293828",
+                    "time": "2025-06-07T14:27:34.600902"
+                },
+                {
+                    "code": "0169293828",
+                    "time": "2025-06-07T15:38:29.949775"
+                }
+            ],
+            "rounds": [
+                {
+                    "registrationTime": "2025-06-07T11:02:53.752277",
+                    "duration": 3773752
+                },
+                {
+                    "registrationTime": "2025-06-07T12:09:34.468815",
+                    "duration": 4000716
+                },
+                {
+                    "registrationTime": "2025-06-07T13:15:06.481089",
+                    "duration": 3932012
+                },
+                {
+                    "registrationTime": "2025-06-07T14:27:34.600902",
+                    "duration": 4348119
+                },
+                {
+                    "registrationTime": "2025-06-07T15:38:29.949775",
+                    "duration": 4255348
+                }
+            ]
+        },
+        {
+            "id": 24,
+            "rank": 3,
+            "startNumber": 13,
+            "firstName": "Nanna",
+            "lastName": "Elkjær Holm",
+            "clubOrCompany": "",
+            "rfid": "0170408708",
+            "gender": "F",
+            "completedRounds": 5,
+            "registrations": [
+                {
+                    "code": "0170408708",
+                    "time": "2025-06-07T11:07:04.087704"
+                },
+                {
+                    "code": "0170408708",
+                    "time": "2025-06-07T12:12:35.968114"
+                },
+                {
+                    "code": "0170408708",
+                    "time": "2025-06-07T13:16:12.946836"
+                },
+                {
+                    "code": "0170408708",
+                    "time": "2025-06-07T14:31:08.212992"
+                },
+                {
+                    "code": "0170408708",
+                    "time": "2025-06-07T15:38:32.023885"
+                }
+            ],
+            "rounds": [
+                {
+                    "registrationTime": "2025-06-07T11:07:04.087704",
+                    "duration": 4024087
+                },
+                {
+                    "registrationTime": "2025-06-07T12:12:35.968114",
+                    "duration": 3931880
+                },
+                {
+                    "registrationTime": "2025-06-07T13:16:12.946836",
+                    "duration": 3816978
+                },
+                {
+                    "registrationTime": "2025-06-07T14:31:08.212992",
+                    "duration": 4495266
+                },
+                {
+                    "registrationTime": "2025-06-07T15:38:32.023885",
+                    "duration": 4043810
+                }
+            ]
+        },
+        {
+            "id": 28,
+            "rank": 4,
+            "startNumber": 15,
+            "firstName": "Linnea",
+            "lastName": "Maja Holbøll Hansen",
+            "clubOrCompany": "Battlefield OCR",
+            "rfid": "0170352900",
+            "gender": "F",
+            "completedRounds": 5,
+            "registrations": [
+                {
+                    "code": "0170352900",
+                    "time": "2025-06-07T11:20:11.756692"
+                },
+                {
+                    "code": "0170352900",
+                    "time": "2025-06-07T12:26:59.217870"
+                },
+                {
+                    "code": "0170352900",
+                    "time": "2025-06-07T13:32:48.083291"
+                },
+                {
+                    "code": "0170352900",
+                    "time": "2025-06-07T14:45:55.555245"
+                },
+                {
+                    "code": "0170352900",
+                    "time": "2025-06-07T15:56:03.551916"
+                }
+            ],
+            "rounds": [
+                {
+                    "registrationTime": "2025-06-07T11:20:11.756692",
+                    "duration": 4811756
+                },
+                {
+                    "registrationTime": "2025-06-07T12:26:59.21787",
+                    "duration": 4007461
+                },
+                {
+                    "registrationTime": "2025-06-07T13:32:48.083291",
+                    "duration": 3948865
+                },
+                {
+                    "registrationTime": "2025-06-07T14:45:55.555245",
+                    "duration": 4387471
+                },
+                {
+                    "registrationTime": "2025-06-07T15:56:03.551916",
+                    "duration": 4207996
+                }
+            ]
+        },
+        {
+            "id": 20,
+            "rank": 5,
+            "startNumber": 9,
+            "firstName": "Nadine",
+            "lastName": "Wendt",
+            "clubOrCompany": "Mudbusters",
+            "rfid": "0169840388",
+            "gender": "F",
+            "completedRounds": 4,
+            "registrations": [
+                {
+                    "code": "0169840388",
+                    "time": "2025-06-07T11:04:53.524033"
+                },
+                {
+                    "code": "0169840388",
+                    "time": "2025-06-07T12:17:11.436304"
+                },
+                {
+                    "code": "0169840388",
+                    "time": "2025-06-07T13:35:21.044"
+                },
+                {
+                    "code": "0169840388",
+                    "time": "2025-06-07T14:54:45.562964"
+                }
+            ],
+            "rounds": [
+                {
+                    "registrationTime": "2025-06-07T11:04:53.524033",
+                    "duration": 3893524
+                },
+                {
+                    "registrationTime": "2025-06-07T12:17:11.436304",
+                    "duration": 4337912
+                },
+                {
+                    "registrationTime": "2025-06-07T13:35:21.044",
+                    "duration": 4689607
+                },
+                {
+                    "registrationTime": "2025-06-07T14:54:45.562964",
+                    "duration": 4764518
+                }
+            ]
+        },
+        {
+            "id": 12,
+            "rank": 6,
+            "startNumber": 5,
+            "firstName": "Michella",
+            "lastName": "Foged",
+            "clubOrCompany": "Cross Training Fredericia",
+            "rfid": "0306938884",
+            "gender": "F",
+            "completedRounds": 3,
+            "registrations": [
+                {
+                    "code": "0306938884",
+                    "time": "2025-06-07T11:57:00.355989"
+                },
+                {
+                    "code": "0306938884",
+                    "time": "2025-06-07T14:31:05.840353"
+                },
+                {
+                    "code": "0306938884",
+                    "time": "2025-06-07T15:33:22.710216"
+                }
+            ],
+            "rounds": [
+                {
+                    "registrationTime": "2025-06-07T11:57:00.355989",
+                    "duration": 7020355
+                },
+                {
+                    "registrationTime": "2025-06-07T14:31:05.840353",
+                    "duration": 9245484
+                },
+                {
+                    "registrationTime": "2025-06-07T15:33:22.710216",
+                    "duration": 3736869
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "rank": 7,
+            "startNumber": 3,
+            "firstName": "Caroline",
+            "lastName": "Skaarup",
+            "clubOrCompany": "",
+            "rfid": "0307425284",
+            "gender": "F",
+            "completedRounds": 0,
+            "registrations": [],
+            "rounds": []
+        }
+    ],
+    "teams": [
+        {
+            "id": 6,
+            "startNumber": 105,
+            "name": "Alt stort blir man snydt af",
+            "rfid": "0172937988",
+            "gender": "M",
+            "athletes": [
+                "Jonas Mortensen",
+                "Mikkel Vesterbrandt"
+            ],
+            "rank": 1,
+            "completedRounds": 7,
+            "registrations": [
+                {
+                    "code": "0172937988",
+                    "time": "2025-06-07T11:11:03.172480"
+                },
+                {
+                    "code": "0172937988",
+                    "time": "2025-06-07T12:08:30.384071"
+                },
+                {
+                    "code": "0172937988",
+                    "time": "2025-06-07T12:55:13.236108"
+                },
+                {
+                    "code": "0172937988",
+                    "time": "2025-06-07T13:51:25.189024"
+                },
+                {
+                    "code": "0172937988",
+                    "time": "2025-06-07T14:39:43.975607"
+                },
+                {
+                    "code": "0172937988",
+                    "time": "2025-06-07T15:28:52.439361"
+                },
+                {
+                    "code": "0172937988",
+                    "time": "2025-06-07T16:10:35.700172"
+                }
+            ],
+            "rounds": [
+                {
+                    "registrationTime": "2025-06-07T11:11:03.17248",
+                    "duration": 3363172
+                },
+                {
+                    "registrationTime": "2025-06-07T12:08:30.384071",
+                    "duration": 3447211
+                },
+                {
+                    "registrationTime": "2025-06-07T12:55:13.236108",
+                    "duration": 2802852
+                },
+                {
+                    "registrationTime": "2025-06-07T13:51:25.189024",
+                    "duration": 3371952
+                },
+                {
+                    "registrationTime": "2025-06-07T14:39:43.975607",
+                    "duration": 2898786
+                },
+                {
+                    "registrationTime": "2025-06-07T15:28:52.439361",
+                    "duration": 2948463
+                },
+                {
+                    "registrationTime": "2025-06-07T16:10:35.700172",
+                    "duration": 2503260
+                }
+            ]
+        },
+        {
+            "id": 5,
+            "startNumber": 104,
+            "name": "Team Raymond",
+            "rfid": "0304572164",
+            "gender": "MIX",
+            "athletes": [
+                "Maggie Raymond",
+                "Steven Raymond"
+            ],
+            "rank": 2,
+            "completedRounds": 5,
+            "registrations": [
+                {
+                    "code": "0304572164",
+                    "time": "2025-06-07T11:12:01.980698"
+                },
+                {
+                    "code": "0304572164",
+                    "time": "2025-06-07T12:11:54.842892"
+                },
+                {
+                    "code": "0304572164",
+                    "time": "2025-06-07T13:13:05.630653"
+                },
+                {
+                    "code": "0304572164",
+                    "time": "2025-06-07T14:03:26.480209"
+                },
+                {
+                    "code": "0304572164",
+                    "time": "2025-06-07T15:25:41.038086"
+                }
+            ],
+            "rounds": [
+                {
+                    "registrationTime": "2025-06-07T11:12:01.980698",
+                    "duration": 3421980
+                },
+                {
+                    "registrationTime": "2025-06-07T12:11:54.842892",
+                    "duration": 3592862
+                },
+                {
+                    "registrationTime": "2025-06-07T13:13:05.630653",
+                    "duration": 3670787
+                },
+                {
+                    "registrationTime": "2025-06-07T14:03:26.480209",
+                    "duration": 3020849
+                },
+                {
+                    "registrationTime": "2025-06-07T15:25:41.038086",
+                    "duration": 4934557
+                }
+            ]
+        },
+        {
+            "id": 8,
+            "startNumber": 107,
+            "name": "Sigge’s drenge returns",
+            "rfid": "0307323140",
+            "gender": "M",
+            "athletes": [
+                "Frederik Kappel",
+                "Kevin Larsen"
+            ],
+            "rank": 3,
+            "completedRounds": 5,
+            "registrations": [
+                {
+                    "code": "0307323140",
+                    "time": "2025-06-07T11:15:14.250260"
+                },
+                {
+                    "code": "0307323140",
+                    "time": "2025-06-07T12:22:22.101947"
+                },
+                {
+                    "code": "0307323140",
+                    "time": "2025-06-07T13:30:30.634239"
+                },
+                {
+                    "code": "0307323140",
+                    "time": "2025-06-07T14:33:44.681217"
+                },
+                {
+                    "code": "0307323140",
+                    "time": "2025-06-07T15:33:02.641014"
+                }
+            ],
+            "rounds": [
+                {
+                    "registrationTime": "2025-06-07T11:15:14.25026",
+                    "duration": 3614250
+                },
+                {
+                    "registrationTime": "2025-06-07T12:22:22.101947",
+                    "duration": 4027851
+                },
+                {
+                    "registrationTime": "2025-06-07T13:30:30.634239",
+                    "duration": 4088532
+                },
+                {
+                    "registrationTime": "2025-06-07T14:33:44.681217",
+                    "duration": 3794046
+                },
+                {
+                    "registrationTime": "2025-06-07T15:33:02.641014",
+                    "duration": 3557959
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "startNumber": 102,
+            "name": "Løbeænderne",
+            "rfid": "0306904324",
+            "gender": "M",
+            "athletes": [
+                "Esben Petersen",
+                "Marcus Thorup"
+            ],
+            "rank": 4,
+            "completedRounds": 5,
+            "registrations": [
+                {
+                    "code": "0306904324",
+                    "time": "2025-06-07T11:15:43.489709"
+                },
+                {
+                    "code": "0306904324",
+                    "time": "2025-06-07T12:14:56.025945"
+                },
+                {
+                    "code": "0306904324",
+                    "time": "2025-06-07T13:22:53.575284"
+                },
+                {
+                    "code": "0306904324",
+                    "time": "2025-06-07T14:37:16.452474"
+                },
+                {
+                    "code": "0306904324",
+                    "time": "2025-06-07T15:37:35.453369"
+                }
+            ],
+            "rounds": [
+                {
+                    "registrationTime": "2025-06-07T11:15:43.489709",
+                    "duration": 3643489
+                },
+                {
+                    "registrationTime": "2025-06-07T12:14:56.025945",
+                    "duration": 3552536
+                },
+                {
+                    "registrationTime": "2025-06-07T13:22:53.575284",
+                    "duration": 4077549
+                },
+                {
+                    "registrationTime": "2025-06-07T14:37:16.452474",
+                    "duration": 4462877
+                },
+                {
+                    "registrationTime": "2025-06-07T15:37:35.453369",
+                    "duration": 3619000
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "startNumber": 103,
+            "name": "MUSSE BANDEN ??",
+            "rfid": "0169007620",
+            "gender": "MIX",
+            "athletes": [
+                "Nana Linde",
+                "Claus Villadsen"
+            ],
+            "rank": 5,
+            "completedRounds": 4,
+            "registrations": [
+                {
+                    "code": "0169007620",
+                    "time": "2025-06-07T11:20:45.024539"
+                },
+                {
+                    "code": "0169007620",
+                    "time": "2025-06-07T12:19:59.487178"
+                },
+                {
+                    "code": "0169007620",
+                    "time": "2025-06-07T13:33:56.128098"
+                },
+                {
+                    "code": "0169007620",
+                    "time": "2025-06-07T15:16:46.662912"
+                }
+            ],
+            "rounds": [
+                {
+                    "registrationTime": "2025-06-07T11:20:45.024539",
+                    "duration": 3945024
+                },
+                {
+                    "registrationTime": "2025-06-07T12:19:59.487178",
+                    "duration": 3554462
+                },
+                {
+                    "registrationTime": "2025-06-07T13:33:56.128098",
+                    "duration": 4436640
+                },
+                {
+                    "registrationTime": "2025-06-07T15:16:46.662912",
+                    "duration": 6170534
+                }
+            ]
+        },
+        {
+            "id": 11,
+            "startNumber": 110,
+            "name": "OCR Himmerland",
+            "rfid": "0301712132",
+            "gender": "M",
+            "athletes": [
+                "Mathias Ryberg Norup",
+                "Per Legarth"
+            ],
+            "rank": 6,
+            "completedRounds": 4,
+            "registrations": [
+                {
+                    "code": "0301712132",
+                    "time": "2025-06-07T11:36:05.655415"
+                },
+                {
+                    "code": "0301712132",
+                    "time": "2025-06-07T12:56:33.778221"
+                },
+                {
+                    "code": "0301712132",
+                    "time": "2025-06-07T14:00:40.311093"
+                },
+                {
+                    "code": "0301712132",
+                    "time": "2025-06-07T15:21:20.447273"
+                }
+            ],
+            "rounds": [
+                {
+                    "registrationTime": "2025-06-07T11:36:05.655415",
+                    "duration": 4865655
+                },
+                {
+                    "registrationTime": "2025-06-07T12:56:33.778221",
+                    "duration": 4828122
+                },
+                {
+                    "registrationTime": "2025-06-07T14:00:40.311093",
+                    "duration": 3846532
+                },
+                {
+                    "registrationTime": "2025-06-07T15:21:20.447273",
+                    "duration": 4840136
+                }
+            ]
+        },
+        {
+            "id": 15,
+            "startNumber": 114,
+            "name": "Gibbon Team Smølfeland",
+            "rfid": "0301282308",
+            "gender": "MIX",
+            "athletes": [
+                "Jakob Ryding",
+                "Frida Ryding"
+            ],
+            "rank": 7,
+            "completedRounds": 4,
+            "registrations": [
+                {
+                    "code": "0301282308",
+                    "time": "2025-06-07T11:19:20.351113"
+                },
+                {
+                    "code": "0301282308",
+                    "time": "2025-06-07T12:40:39.801658"
+                },
+                {
+                    "code": "0301282308",
+                    "time": "2025-06-07T14:04:16.851754"
+                },
+                {
+                    "code": "0301282308",
+                    "time": "2025-06-07T15:26:50.511300"
+                }
+            ],
+            "rounds": [
+                {
+                    "registrationTime": "2025-06-07T11:19:20.351113",
+                    "duration": 3860351
+                },
+                {
+                    "registrationTime": "2025-06-07T12:40:39.801658",
+                    "duration": 4879450
+                },
+                {
+                    "registrationTime": "2025-06-07T14:04:16.851754",
+                    "duration": 5017050
+                },
+                {
+                    "registrationTime": "2025-06-07T15:26:50.5113",
+                    "duration": 4953659
+                }
+            ]
+        },
+        {
+            "id": 9,
+            "startNumber": 108,
+            "name": "Team MC",
+            "rfid": "0169733636",
+            "gender": "F",
+            "athletes": [
+                "Camilla Koch",
+                "Michèle Due Pomowski"
+            ],
+            "rank": 8,
+            "completedRounds": 4,
+            "registrations": [
+                {
+                    "code": "0169733636",
+                    "time": "2025-06-07T11:43:16.472434"
+                },
+                {
+                    "code": "0169733636",
+                    "time": "2025-06-07T13:01:04.234826"
+                },
+                {
+                    "code": "0169733636",
+                    "time": "2025-06-07T14:17:03.473599"
+                },
+                {
+                    "code": "0169733636",
+                    "time": "2025-06-07T15:43:07.874430"
+                }
+            ],
+            "rounds": [
+                {
+                    "registrationTime": "2025-06-07T11:43:16.472434",
+                    "duration": 5296472
+                },
+                {
+                    "registrationTime": "2025-06-07T13:01:04.234826",
+                    "duration": 4667762
+                },
+                {
+                    "registrationTime": "2025-06-07T14:17:03.473599",
+                    "duration": 4559238
+                },
+                {
+                    "registrationTime": "2025-06-07T15:43:07.87443",
+                    "duration": 5164400
+                }
+            ]
+        },
+        {
+            "id": 10,
+            "startNumber": 109,
+            "name": "Team Halkjær",
+            "rfid": "0169861380",
+            "gender": "MIX",
+            "athletes": [
+                "Trina Halkjær Sørensen",
+                "Thomas Halkjær Rasmussen"
+            ],
+            "rank": 9,
+            "completedRounds": 3,
+            "registrations": [
+                {
+                    "code": "0169861380",
+                    "time": "2025-06-07T11:56:08.730024"
+                },
+                {
+                    "code": "0169861380",
+                    "time": "2025-06-07T13:25:43.234831"
+                },
+                {
+                    "code": "0169861380",
+                    "time": "2025-06-07T15:15:24.353044"
+                }
+            ],
+            "rounds": [
+                {
+                    "registrationTime": "2025-06-07T11:56:08.730024",
+                    "duration": 6068730
+                },
+                {
+                    "registrationTime": "2025-06-07T13:25:43.234831",
+                    "duration": 5374504
+                },
+                {
+                    "registrationTime": "2025-06-07T15:15:24.353044",
+                    "duration": 6581118
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "startNumber": 101,
+            "name": "Halkjær´s boys",
+            "rfid": "0301056516",
+            "gender": "M",
+            "athletes": [
+                "Villads Halkjær Sørensen",
+                "Ludvig Halkjær Sørensen"
+            ],
+            "rank": 10,
+            "completedRounds": 3,
+            "registrations": [
+                {
+                    "code": "0301056516",
+                    "time": "2025-06-07T11:57:30.426651"
+                },
+                {
+                    "code": "0301056516",
+                    "time": "2025-06-07T13:38:17.137013"
+                },
+                {
+                    "code": "0301056516",
+                    "time": "2025-06-07T15:16:15.722956"
+                }
+            ],
+            "rounds": [
+                {
+                    "registrationTime": "2025-06-07T11:57:30.426651",
+                    "duration": 6150426
+                },
+                {
+                    "registrationTime": "2025-06-07T13:38:17.137013",
+                    "duration": 6046710
+                },
+                {
+                    "registrationTime": "2025-06-07T15:16:15.722956",
+                    "duration": 5878585
+                }
+            ]
+        },
+        {
+            "id": 17,
+            "startNumber": 116,
+            "name": "Mj",
+            "rfid": "0168851204",
+            "gender": "F",
+            "athletes": [
+                "Jeanette Gjørret",
+                "Marion Million"
+            ],
+            "rank": 11,
+            "completedRounds": 3,
+            "registrations": [
+                {
+                    "code": "0168851204",
+                    "time": "2025-06-07T12:02:14.207408"
+                },
+                {
+                    "code": "0168851204",
+                    "time": "2025-06-07T14:41:23.989199"
+                },
+                {
+                    "code": "0168851204",
+                    "time": "2025-06-07T15:26:00.019780"
+                }
+            ],
+            "rounds": [
+                {
+                    "registrationTime": "2025-06-07T12:02:14.207408",
+                    "duration": 6434207
+                },
+                {
+                    "registrationTime": "2025-06-07T14:41:23.989199",
+                    "duration": 9549781
+                },
+                {
+                    "registrationTime": "2025-06-07T15:26:00.01978",
+                    "duration": 2676030
+                }
+            ]
+        },
+        {
+            "id": 7,
+            "startNumber": 106,
+            "name": "DetVedViIkke",
+            "rfid": "0306500612",
+            "gender": "MIX",
+            "athletes": [
+                "Malene Elsgart",
+                "Casper Nielsen"
+            ],
+            "rank": 12,
+            "completedRounds": 3,
+            "registrations": [
+                {
+                    "code": "0306500612",
+                    "time": "2025-06-07T12:19:31.935111"
+                },
+                {
+                    "code": "0306500612",
+                    "time": "2025-06-07T14:08:10.824242"
+                },
+                {
+                    "code": "0306500612",
+                    "time": "2025-06-07T15:44:34.541192"
+                }
+            ],
+            "rounds": [
+                {
+                    "registrationTime": "2025-06-07T12:19:31.935111",
+                    "duration": 7471935
+                },
+                {
+                    "registrationTime": "2025-06-07T14:08:10.824242",
+                    "duration": 6518889
+                },
+                {
+                    "registrationTime": "2025-06-07T15:44:34.541192",
+                    "duration": 5783716
+                }
+            ]
+        },
+        {
+            "id": 14,
+            "startNumber": 113,
+            "name": "Tine og Camilla",
+            "rfid": "0299045124",
+            "gender": "F",
+            "athletes": [
+                "Tine Meilvang",
+                "Camilla Ryding"
+            ],
+            "rank": 13,
+            "completedRounds": 3,
+            "registrations": [
+                {
+                    "code": "0299045124",
+                    "time": "2025-06-07T12:17:46.402951"
+                },
+                {
+                    "code": "0299045124",
+                    "time": "2025-06-07T14:16:23.584718"
+                },
+                {
+                    "code": "0299045124",
+                    "time": "2025-06-07T15:53:03.938828"
+                }
+            ],
+            "rounds": [
+                {
+                    "registrationTime": "2025-06-07T12:17:46.402951",
+                    "duration": 7366402
+                },
+                {
+                    "registrationTime": "2025-06-07T14:16:23.584718",
+                    "duration": 7117181
+                },
+                {
+                    "registrationTime": "2025-06-07T15:53:03.938828",
+                    "duration": 5800354
+                }
+            ]
+        },
+        {
+            "id": 12,
+            "startNumber": 111,
+            "name": "Hvor fanden ligger Toftlund",
+            "rfid": "0168504068",
+            "gender": "F",
+            "athletes": [
+                "Sigge Morell",
+                "Louise Turgut"
+            ],
+            "rank": 14,
+            "completedRounds": 3,
+            "registrations": [
+                {
+                    "code": "0168504068",
+                    "time": "2025-06-07T12:17:48.467327"
+                },
+                {
+                    "code": "0168504068",
+                    "time": "2025-06-07T14:16:49.829478"
+                },
+                {
+                    "code": "0168504068",
+                    "time": "2025-06-07T15:53:07.156932"
+                }
+            ],
+            "rounds": [
+                {
+                    "registrationTime": "2025-06-07T12:17:48.467327",
+                    "duration": 7368467
+                },
+                {
+                    "registrationTime": "2025-06-07T14:16:49.829478",
+                    "duration": 7141362
+                },
+                {
+                    "registrationTime": "2025-06-07T15:53:07.156932",
+                    "duration": 5777327
+                }
+            ]
+        },
+        {
+            "id": 1,
+            "startNumber": 100,
+            "name": "Team honey",
+            "rfid": "0308672516",
+            "gender": "MIX",
+            "athletes": [
+                "Anna Abigail H Schmidt",
+                "Mike Andersen"
+            ],
+            "rank": 15,
+            "completedRounds": 3,
+            "registrations": [
+                {
+                    "code": "0308672516",
+                    "time": "2025-06-07T12:10:31.262866"
+                },
+                {
+                    "code": "0308672516",
+                    "time": "2025-06-07T14:41:33.801891"
+                },
+                {
+                    "code": "0308672516",
+                    "time": "2025-06-07T15:56:15.571387"
+                }
+            ],
+            "rounds": [
+                {
+                    "registrationTime": "2025-06-07T12:10:31.262866",
+                    "duration": 6931262
+                },
+                {
+                    "registrationTime": "2025-06-07T14:41:33.801891",
+                    "duration": 9062539
+                },
+                {
+                    "registrationTime": "2025-06-07T15:56:15.571387",
+                    "duration": 4481769
+                }
+            ]
+        },
+        {
+            "id": 13,
+            "startNumber": 112,
+            "name": "H.C",
+            "rfid": "0170545156",
+            "gender": "MIX",
+            "athletes": [
+                "Louise Skoven",
+                "Philip Brugger"
+            ],
+            "rank": 16,
+            "completedRounds": 2,
+            "registrations": [
+                {
+                    "code": "0170545156",
+                    "time": "2025-06-07T12:18:56.417877"
+                },
+                {
+                    "code": "0170545156",
+                    "time": "2025-06-07T15:15:34.525109"
+                }
+            ],
+            "rounds": [
+                {
+                    "registrationTime": "2025-06-07T12:18:56.417877",
+                    "duration": 7436417
+                },
+                {
+                    "registrationTime": "2025-06-07T15:15:34.525109",
+                    "duration": 10598107
+                }
+            ]
+        },
+        {
+            "id": 16,
+            "startNumber": 115,
+            "name": "Hunks of Haderslev",
+            "rfid": "0304611076",
+            "gender": "M",
+            "athletes": [
+                "Malthe Schrøder",
+                "Benjamin Friis"
+            ],
+            "rank": 17,
+            "completedRounds": 0,
+            "registrations": [],
+            "rounds": []
+        }
+    ],
+    "deleted": false
+}
