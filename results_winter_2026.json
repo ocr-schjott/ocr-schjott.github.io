@@ -1,0 +1,1225 @@
+{
+    "endDate": "2026-02-28",
+    "id": 2,
+    "live": true,
+    "name": "6 timers OCR Vinter 2026",
+    "races": [
+        {
+            "endTime": "16:00:00",
+            "entries": [
+                {
+                    "clubOrCompany": "Baghaven",
+                    "id": 43,
+                    "laps": 6,
+                    "memberNames": null,
+                    "name": "Henrik Hahn",
+                    "participantId": "8348717",
+                    "registrations": [
+                        {
+                            "id": 53,
+                            "rfidCode": "0304611076",
+                            "time": "2026-02-28T10:50:36.160667"
+                        },
+                        {
+                            "id": 81,
+                            "rfidCode": "0304611076",
+                            "time": "2026-02-28T11:43:06.754752"
+                        },
+                        {
+                            "id": 107,
+                            "rfidCode": "0304611076",
+                            "time": "2026-02-28T12:39:00.088334"
+                        },
+                        {
+                            "id": 136,
+                            "rfidCode": "0304611076",
+                            "time": "2026-02-28T13:51:38.812524"
+                        },
+                        {
+                            "id": 159,
+                            "rfidCode": "0304611076",
+                            "time": "2026-02-28T15:09:06.760326"
+                        },
+                        {
+                            "id": 184,
+                            "rfidCode": "0304611076",
+                            "time": "2026-02-28T15:53:37.400983"
+                        }
+                    ],
+                    "rfid": "0304611076",
+                    "startNumber": 1
+                },
+                {
+                    "clubOrCompany": null,
+                    "id": 44,
+                    "laps": 3,
+                    "memberNames": null,
+                    "name": "Andreas Munk Asmussen",
+                    "participantId": "8360366",
+                    "registrations": [
+                        {
+                            "id": 61,
+                            "rfidCode": "0299045124",
+                            "time": "2026-02-28T11:09:49.706992"
+                        },
+                        {
+                            "id": 100,
+                            "rfidCode": "0299045124",
+                            "time": "2026-02-28T12:24:22.160756"
+                        },
+                        {
+                            "id": 140,
+                            "rfidCode": "0299045124",
+                            "time": "2026-02-28T13:59:27.756972"
+                        }
+                    ],
+                    "rfid": "0299045124",
+                    "startNumber": 2
+                },
+                {
+                    "clubOrCompany": "Gibbon Gym",
+                    "id": 45,
+                    "laps": 3,
+                    "memberNames": null,
+                    "name": "Mathias Nicolai Daneholm Gjelstrup",
+                    "participantId": "8380855",
+                    "registrations": [
+                        {
+                            "id": 67,
+                            "rfidCode": "0300019972",
+                            "time": "2026-02-28T11:12:26.168153"
+                        },
+                        {
+                            "id": 99,
+                            "rfidCode": "0300019972",
+                            "time": "2026-02-28T12:19:35.272861"
+                        },
+                        {
+                            "id": 123,
+                            "rfidCode": "0300019972",
+                            "time": "2026-02-28T13:22:54.521234"
+                        }
+                    ],
+                    "rfid": "0300019972",
+                    "startNumber": 3
+                },
+                {
+                    "clubOrCompany": null,
+                    "id": 46,
+                    "laps": 4,
+                    "memberNames": null,
+                    "name": "Gytis Cekamiras",
+                    "participantId": "8414946",
+                    "registrations": [
+                        {
+                            "id": 60,
+                            "rfidCode": "0168851204",
+                            "time": "2026-02-28T11:09:24.241764"
+                        },
+                        {
+                            "id": 97,
+                            "rfidCode": "0168851204",
+                            "time": "2026-02-28T12:17:47.659495"
+                        },
+                        {
+                            "id": 129,
+                            "rfidCode": "0168851204",
+                            "time": "2026-02-28T13:40:45.634826"
+                        },
+                        {
+                            "id": 161,
+                            "rfidCode": "0168851204",
+                            "time": "2026-02-28T15:12:01.501756"
+                        }
+                    ],
+                    "rfid": "0168851204",
+                    "startNumber": 4
+                },
+                {
+                    "clubOrCompany": null,
+                    "id": 47,
+                    "laps": 0,
+                    "memberNames": null,
+                    "name": "nicolai pedersen",
+                    "participantId": "8432057",
+                    "registrations": [],
+                    "rfid": null,
+                    "startNumber": 5
+                },
+                {
+                    "clubOrCompany": "Baghaven",
+                    "id": 48,
+                    "laps": 1,
+                    "memberNames": null,
+                    "name": "Laurits Rost",
+                    "participantId": "8443870",
+                    "registrations": [
+                        {
+                            "id": 59,
+                            "rfidCode": "0169486340",
+                            "time": "2026-02-28T11:09:08.802454"
+                        }
+                    ],
+                    "rfid": "0169486340",
+                    "startNumber": 6
+                },
+                {
+                    "clubOrCompany": null,
+                    "id": 49,
+                    "laps": 4,
+                    "memberNames": null,
+                    "name": "Lars Madsen",
+                    "participantId": "8450023",
+                    "registrations": [
+                        {
+                            "id": 71,
+                            "rfidCode": "0296159492",
+                            "time": "2026-02-28T11:17:02.665222"
+                        },
+                        {
+                            "id": 103,
+                            "rfidCode": "0296159492",
+                            "time": "2026-02-28T12:24:39.992531"
+                        },
+                        {
+                            "id": 135,
+                            "rfidCode": "0296159492",
+                            "time": "2026-02-28T13:49:38.585485"
+                        },
+                        {
+                            "id": 162,
+                            "rfidCode": "0296159492",
+                            "time": "2026-02-28T15:12:13.28706"
+                        }
+                    ],
+                    "rfid": "0296159492",
+                    "startNumber": 7
+                },
+                {
+                    "clubOrCompany": null,
+                    "id": 50,
+                    "laps": 4,
+                    "memberNames": null,
+                    "name": "Peter Warming-hansen",
+                    "participantId": "8452100",
+                    "registrations": [
+                        {
+                            "id": 62,
+                            "rfidCode": "0301282308",
+                            "time": "2026-02-28T11:09:51.985535"
+                        },
+                        {
+                            "id": 101,
+                            "rfidCode": "0301282308",
+                            "time": "2026-02-28T12:24:25.15628"
+                        },
+                        {
+                            "id": 141,
+                            "rfidCode": "0301282308",
+                            "time": "2026-02-28T13:59:33.911113"
+                        },
+                        {
+                            "id": 181,
+                            "rfidCode": "0301282308",
+                            "time": "2026-02-28T15:45:21.052422"
+                        }
+                    ],
+                    "rfid": "0301282308",
+                    "startNumber": 8
+                },
+                {
+                    "clubOrCompany": "De bærende stolper",
+                    "id": 51,
+                    "laps": 4,
+                    "memberNames": null,
+                    "name": "Daniel Jørgensen",
+                    "participantId": "8471764",
+                    "registrations": [
+                        {
+                            "id": 64,
+                            "rfidCode": "0169840388",
+                            "time": "2026-02-28T11:12:13.074709"
+                        },
+                        {
+                            "id": 102,
+                            "rfidCode": "0169840388",
+                            "time": "2026-02-28T12:24:36.930642"
+                        },
+                        {
+                            "id": 134,
+                            "rfidCode": "0169840388",
+                            "time": "2026-02-28T13:49:36.911453"
+                        },
+                        {
+                            "id": 165,
+                            "rfidCode": "0169840388",
+                            "time": "2026-02-28T15:16:46.449435"
+                        }
+                    ],
+                    "rfid": "0169840388",
+                    "startNumber": 9
+                },
+                {
+                    "clubOrCompany": "Gladsaxe OCR",
+                    "id": 52,
+                    "laps": 3,
+                    "memberNames": null,
+                    "name": "Kasper Juhl Weinreich",
+                    "participantId": "8473534",
+                    "registrations": [
+                        {
+                            "id": 83,
+                            "rfidCode": "0306904324",
+                            "time": "2026-02-28T11:43:16.870952"
+                        },
+                        {
+                            "id": 119,
+                            "rfidCode": "0306904324",
+                            "time": "2026-02-28T13:13:17.308401"
+                        },
+                        {
+                            "id": 156,
+                            "rfidCode": "0306904324",
+                            "time": "2026-02-28T15:07:13.20788"
+                        }
+                    ],
+                    "rfid": "0306904324",
+                    "startNumber": 10
+                },
+                {
+                    "clubOrCompany": null,
+                    "id": 53,
+                    "laps": 3,
+                    "memberNames": null,
+                    "name": "Marius Thøgersen",
+                    "participantId": "8478151",
+                    "registrations": [
+                        {
+                            "id": 116,
+                            "rfidCode": "0304082948",
+                            "time": "2026-02-28T12:59:04.546483"
+                        },
+                        {
+                            "id": 118,
+                            "rfidCode": "0304082948",
+                            "time": "2026-02-28T13:12:20.632284"
+                        },
+                        {
+                            "id": 147,
+                            "rfidCode": "0304082948",
+                            "time": "2026-02-28T14:18:19.208898"
+                        }
+                    ],
+                    "rfid": "0304082948",
+                    "startNumber": 11
+                },
+                {
+                    "clubOrCompany": "OCR Brædstrup",
+                    "id": 54,
+                    "laps": 3,
+                    "memberNames": null,
+                    "name": "Jesper Thomsen",
+                    "participantId": "8497105",
+                    "registrations": [
+                        {
+                            "id": 73,
+                            "rfidCode": "0301056516",
+                            "time": "2026-02-28T11:23:37.214583"
+                        },
+                        {
+                            "id": 113,
+                            "rfidCode": "0301056516",
+                            "time": "2026-02-28T12:51:09.540881"
+                        },
+                        {
+                            "id": 163,
+                            "rfidCode": "0301056516",
+                            "time": "2026-02-28T15:15:25.74461"
+                        }
+                    ],
+                    "rfid": "0301056516",
+                    "startNumber": 12
+                },
+                {
+                    "clubOrCompany": "Essie",
+                    "id": 55,
+                    "laps": 6,
+                    "memberNames": null,
+                    "name": "Eskild Slot",
+                    "participantId": "8500717",
+                    "registrations": [
+                        {
+                            "id": 54,
+                            "rfidCode": "0168715268",
+                            "time": "2026-02-28T10:51:41.225325"
+                        },
+                        {
+                            "id": 80,
+                            "rfidCode": "0168715268",
+                            "time": "2026-02-28T11:42:35.173227"
+                        },
+                        {
+                            "id": 108,
+                            "rfidCode": "0168715268",
+                            "time": "2026-02-28T12:40:41.839042"
+                        },
+                        {
+                            "id": 137,
+                            "rfidCode": "0168715268",
+                            "time": "2026-02-28T13:51:41.774676"
+                        },
+                        {
+                            "id": 158,
+                            "rfidCode": "0168715268",
+                            "time": "2026-02-28T15:09:01.347113"
+                        },
+                        {
+                            "id": 189,
+                            "rfidCode": "0168715268",
+                            "time": "2026-02-28T16:04:32.3442"
+                        }
+                    ],
+                    "rfid": "0168715268",
+                    "startNumber": 13
+                },
+                {
+                    "clubOrCompany": null,
+                    "id": 56,
+                    "laps": 6,
+                    "memberNames": null,
+                    "name": "Mads Warming-Hansen",
+                    "participantId": "8507858",
+                    "registrations": [
+                        {
+                            "id": 56,
+                            "rfidCode": "0307323140",
+                            "time": "2026-02-28T11:00:45.430522"
+                        },
+                        {
+                            "id": 89,
+                            "rfidCode": "0307323140",
+                            "time": "2026-02-28T12:00:22.184062"
+                        },
+                        {
+                            "id": 115,
+                            "rfidCode": "0307323140",
+                            "time": "2026-02-28T12:58:50.272857"
+                        },
+                        {
+                            "id": 139,
+                            "rfidCode": "0307323140",
+                            "time": "2026-02-28T13:56:05.252996"
+                        },
+                        {
+                            "id": 153,
+                            "rfidCode": "0307323140",
+                            "time": "2026-02-28T14:56:39.894766"
+                        },
+                        {
+                            "id": 182,
+                            "rfidCode": "0307323140",
+                            "time": "2026-02-28T15:46:54.335047"
+                        }
+                    ],
+                    "rfid": "0307323140",
+                    "startNumber": 14
+                },
+                {
+                    "clubOrCompany": null,
+                    "id": 57,
+                    "laps": 4,
+                    "memberNames": null,
+                    "name": "Marcus Thorup",
+                    "participantId": "8510748",
+                    "registrations": [
+                        {
+                            "id": 57,
+                            "rfidCode": "0301712132",
+                            "time": "2026-02-28T11:01:24.335287"
+                        },
+                        {
+                            "id": 96,
+                            "rfidCode": "0301712132",
+                            "time": "2026-02-28T12:15:53.593651"
+                        },
+                        {
+                            "id": 142,
+                            "rfidCode": "0301712132",
+                            "time": "2026-02-28T14:08:21.031526"
+                        },
+                        {
+                            "id": 187,
+                            "rfidCode": "0301712132",
+                            "time": "2026-02-28T16:03:01.519842"
+                        }
+                    ],
+                    "rfid": "0301712132",
+                    "startNumber": 15
+                },
+                {
+                    "clubOrCompany": null,
+                    "id": 58,
+                    "laps": 0,
+                    "memberNames": null,
+                    "name": "Christopher Schmitz",
+                    "participantId": "8519447",
+                    "registrations": [],
+                    "rfid": null,
+                    "startNumber": 16
+                },
+                {
+                    "clubOrCompany": "Team Romkugler",
+                    "id": 59,
+                    "laps": 5,
+                    "memberNames": null,
+                    "name": "Lars Warming",
+                    "participantId": "8520887",
+                    "registrations": [
+                        {
+                            "id": 52,
+                            "rfidCode": "0170545156",
+                            "time": "2026-02-28T10:48:08.455417"
+                        },
+                        {
+                            "id": 78,
+                            "rfidCode": "0170545156",
+                            "time": "2026-02-28T11:36:57.235825"
+                        },
+                        {
+                            "id": 110,
+                            "rfidCode": "0170545156",
+                            "time": "2026-02-28T12:45:37.546019"
+                        },
+                        {
+                            "id": 152,
+                            "rfidCode": "0170545156",
+                            "time": "2026-02-28T14:51:08.479739"
+                        },
+                        {
+                            "id": 183,
+                            "rfidCode": "0170545156",
+                            "time": "2026-02-28T15:47:47.056215"
+                        }
+                    ],
+                    "rfid": "0170545156",
+                    "startNumber": 17
+                },
+                {
+                    "clubOrCompany": "Køleboxen",
+                    "id": 60,
+                    "laps": 4,
+                    "memberNames": null,
+                    "name": "Andreas Bøgebjerg Hansen",
+                    "participantId": "8521734",
+                    "registrations": [
+                        {
+                            "id": 55,
+                            "rfidCode": "0172887044",
+                            "time": "2026-02-28T10:54:45.232843"
+                        },
+                        {
+                            "id": 92,
+                            "rfidCode": "0172887044",
+                            "time": "2026-02-28T12:05:22.420863"
+                        },
+                        {
+                            "id": 130,
+                            "rfidCode": "0172887044",
+                            "time": "2026-02-28T13:40:59.704933"
+                        },
+                        {
+                            "id": 177,
+                            "rfidCode": "0172887044",
+                            "time": "2026-02-28T15:30:15.940274"
+                        }
+                    ],
+                    "rfid": "0172887044",
+                    "startNumber": 18
+                }
+            ],
+            "id": 4,
+            "name": "Solo herrer",
+            "startTime": "10:00:00",
+            "type": null
+        },
+        {
+            "endTime": "16:00:00",
+            "entries": [
+                {
+                    "clubOrCompany": "Mudbusters",
+                    "id": 61,
+                    "laps": 4,
+                    "memberNames": null,
+                    "name": "Nadine Wendt",
+                    "participantId": "8351079",
+                    "registrations": [
+                        {
+                            "id": 70,
+                            "rfidCode": "0307784964",
+                            "time": "2026-02-28T11:16:21.291126"
+                        },
+                        {
+                            "id": 106,
+                            "rfidCode": "0307784964",
+                            "time": "2026-02-28T12:35:15.030507"
+                        },
+                        {
+                            "id": 133,
+                            "rfidCode": "0307784964",
+                            "time": "2026-02-28T13:49:02.347761"
+                        },
+                        {
+                            "id": 157,
+                            "rfidCode": "0307784964",
+                            "time": "2026-02-28T15:07:15.510512"
+                        }
+                    ],
+                    "rfid": "0307784964",
+                    "startNumber": 19
+                },
+                {
+                    "clubOrCompany": null,
+                    "id": 62,
+                    "laps": 4,
+                    "memberNames": null,
+                    "name": "Inga Palaikiene",
+                    "participantId": "8472411",
+                    "registrations": [
+                        {
+                            "id": 65,
+                            "rfidCode": "0170015236",
+                            "time": "2026-02-28T11:12:18.944416"
+                        },
+                        {
+                            "id": 105,
+                            "rfidCode": "0170015236",
+                            "time": "2026-02-28T12:27:41.824601"
+                        },
+                        {
+                            "id": 132,
+                            "rfidCode": "0170015236",
+                            "time": "2026-02-28T13:46:16.900408"
+                        },
+                        {
+                            "id": 154,
+                            "rfidCode": "0170015236",
+                            "time": "2026-02-28T15:07:07.926903"
+                        }
+                    ],
+                    "rfid": "0170015236",
+                    "startNumber": 20
+                },
+                {
+                    "clubOrCompany": null,
+                    "id": 63,
+                    "laps": 5,
+                    "memberNames": null,
+                    "name": "Marie Vilsøe Mayntzhusen",
+                    "participantId": "8491342",
+                    "registrations": [
+                        {
+                            "id": 58,
+                            "rfidCode": "0169119492",
+                            "time": "2026-02-28T11:07:46.162434"
+                        },
+                        {
+                            "id": 93,
+                            "rfidCode": "0169119492",
+                            "time": "2026-02-28T12:10:24.587513"
+                        },
+                        {
+                            "id": 120,
+                            "rfidCode": "0169119492",
+                            "time": "2026-02-28T13:14:29.939308"
+                        },
+                        {
+                            "id": 150,
+                            "rfidCode": "0169119492",
+                            "time": "2026-02-28T14:32:44.097015"
+                        },
+                        {
+                            "id": 180,
+                            "rfidCode": "0169119492",
+                            "time": "2026-02-28T15:44:29.428069"
+                        }
+                    ],
+                    "rfid": "0169119492",
+                    "startNumber": 21
+                },
+                {
+                    "clubOrCompany": "Greve Karate OCR",
+                    "id": 64,
+                    "laps": 0,
+                    "memberNames": null,
+                    "name": "Katja Hørmann",
+                    "participantId": "8499427",
+                    "registrations": [],
+                    "rfid": null,
+                    "startNumber": 22
+                },
+                {
+                    "clubOrCompany": null,
+                    "id": 65,
+                    "laps": 0,
+                    "memberNames": null,
+                    "name": "Maria Pontoppidan",
+                    "participantId": "8501625",
+                    "registrations": [],
+                    "rfid": null,
+                    "startNumber": 23
+                },
+                {
+                    "clubOrCompany": "PilborgFitness",
+                    "id": 66,
+                    "laps": 2,
+                    "memberNames": null,
+                    "name": "Cecilie Pilborg",
+                    "participantId": "8515012",
+                    "registrations": [
+                        {
+                            "id": 79,
+                            "rfidCode": "0169770500",
+                            "time": "2026-02-28T11:37:01.705269"
+                        },
+                        {
+                            "id": 176,
+                            "rfidCode": "0169770500",
+                            "time": "2026-02-28T15:28:43.711718"
+                        }
+                    ],
+                    "rfid": "0169770500",
+                    "startNumber": 24
+                },
+                {
+                    "clubOrCompany": null,
+                    "id": 67,
+                    "laps": 3,
+                    "memberNames": null,
+                    "name": "Liselotte Overgaard Høegh",
+                    "participantId": "8521331",
+                    "registrations": [
+                        {
+                            "id": 77,
+                            "rfidCode": "0302105348",
+                            "time": "2026-02-28T11:36:53.297386"
+                        },
+                        {
+                            "id": 126,
+                            "rfidCode": "0302105348",
+                            "time": "2026-02-28T13:26:09.91778"
+                        },
+                        {
+                            "id": 172,
+                            "rfidCode": "0302105348",
+                            "time": "2026-02-28T15:26:03.278804"
+                        }
+                    ],
+                    "rfid": "0302105348",
+                    "startNumber": 25
+                },
+                {
+                    "clubOrCompany": "Team Gabelgaard",
+                    "id": 68,
+                    "laps": 1,
+                    "memberNames": null,
+                    "name": "Tanja Gabelgaard",
+                    "participantId": "8528496",
+                    "registrations": [
+                        {
+                            "id": 66,
+                            "rfidCode": "0168504068",
+                            "time": "2026-02-28T11:12:21.604124"
+                        }
+                    ],
+                    "rfid": "0168504068",
+                    "startNumber": 26
+                }
+            ],
+            "id": 5,
+            "name": "Solo damer",
+            "startTime": "10:00:00",
+            "type": null
+        },
+        {
+            "endTime": "16:15:00",
+            "entries": [
+                {
+                    "clubOrCompany": "GibbonGym",
+                    "id": 69,
+                    "laps": 6,
+                    "memberNames": "[\"Frederik Kappel\",\"Kevin Larsen\"]",
+                    "name": "Sigge’s Drenge vol. 3",
+                    "participantId": "8379369",
+                    "registrations": [
+                        {
+                            "id": 69,
+                            "rfidCode": "0169293828",
+                            "time": "2026-02-28T11:15:18.036005"
+                        },
+                        {
+                            "id": 98,
+                            "rfidCode": "0169293828",
+                            "time": "2026-02-28T12:19:18.190107"
+                        },
+                        {
+                            "id": 124,
+                            "rfidCode": "0169293828",
+                            "time": "2026-02-28T13:22:59.125474"
+                        },
+                        {
+                            "id": 146,
+                            "rfidCode": "0169293828",
+                            "time": "2026-02-28T14:17:37.72042"
+                        },
+                        {
+                            "id": 160,
+                            "rfidCode": "0169293828",
+                            "time": "2026-02-28T15:11:57.026909"
+                        },
+                        {
+                            "id": 186,
+                            "rfidCode": "0169293828",
+                            "time": "2026-02-28T16:02:44.84546"
+                        }
+                    ],
+                    "rfid": "0169293828",
+                    "startNumber": 27
+                },
+                {
+                    "clubOrCompany": "GibbonGym",
+                    "id": 70,
+                    "laps": 5,
+                    "memberNames": "[\"Steven Raymond\",\"Maggie Raymond\"]",
+                    "name": "Team Raymond",
+                    "participantId": "8386570",
+                    "registrations": [
+                        {
+                            "id": 72,
+                            "rfidCode": "0169653252",
+                            "time": "2026-02-28T11:17:13.052807"
+                        },
+                        {
+                            "id": 95,
+                            "rfidCode": "0169653252",
+                            "time": "2026-02-28T12:12:36.557063"
+                        },
+                        {
+                            "id": 122,
+                            "rfidCode": "0169653252",
+                            "time": "2026-02-28T13:20:28.399818"
+                        },
+                        {
+                            "id": 149,
+                            "rfidCode": "0169653252",
+                            "time": "2026-02-28T14:25:00.206687"
+                        },
+                        {
+                            "id": 170,
+                            "rfidCode": "0169653252",
+                            "time": "2026-02-28T15:23:42.421386"
+                        }
+                    ],
+                    "rfid": "0169653252",
+                    "startNumber": 28
+                },
+                {
+                    "clubOrCompany": "Gladsaxe OCR",
+                    "id": 71,
+                    "laps": 3,
+                    "memberNames": "[\"Bjarne Rasmussen\",\"Martin Nielsen\"]",
+                    "name": "Gladsaxe OCR",
+                    "participantId": "8412333",
+                    "registrations": [
+                        {
+                            "id": 82,
+                            "rfidCode": "0306938884",
+                            "time": "2026-02-28T11:43:13.978875"
+                        },
+                        {
+                            "id": 117,
+                            "rfidCode": "0306938884",
+                            "time": "2026-02-28T13:11:57.92733"
+                        },
+                        {
+                            "id": 155,
+                            "rfidCode": "0306938884",
+                            "time": "2026-02-28T15:07:10.704403"
+                        }
+                    ],
+                    "rfid": "0306938884",
+                    "startNumber": 29
+                },
+                {
+                    "clubOrCompany": null,
+                    "id": 72,
+                    "laps": 2,
+                    "memberNames": "[\"Jeanette Gjørret\",\"Christine Winberg\"]",
+                    "name": "Winberg",
+                    "participantId": "8437136",
+                    "registrations": [
+                        {
+                            "id": 90,
+                            "rfidCode": "0170408708",
+                            "time": "2026-02-28T12:02:47.097742"
+                        },
+                        {
+                            "id": 167,
+                            "rfidCode": "0170408708",
+                            "time": "2026-02-28T15:20:30.229421"
+                        }
+                    ],
+                    "rfid": "0170408708",
+                    "startNumber": 30
+                },
+                {
+                    "clubOrCompany": null,
+                    "id": 73,
+                    "laps": 2,
+                    "memberNames": "[\"Marion Million\",\"Emilie Wolff Friis\"]",
+                    "name": "Team Million",
+                    "participantId": "8442154",
+                    "registrations": [
+                        {
+                            "id": 91,
+                            "rfidCode": "0306500612",
+                            "time": "2026-02-28T12:02:55.839654"
+                        },
+                        {
+                            "id": 168,
+                            "rfidCode": "0306500612",
+                            "time": "2026-02-28T15:20:33.22499"
+                        }
+                    ],
+                    "rfid": "0306500612",
+                    "startNumber": 31
+                },
+                {
+                    "clubOrCompany": null,
+                    "id": 74,
+                    "laps": 0,
+                    "memberNames": "[\"Heidi Holm\",\"Søren Winberg\"]",
+                    "name": "Holmely",
+                    "participantId": "8442156",
+                    "registrations": [],
+                    "rfid": null,
+                    "startNumber": 32
+                },
+                {
+                    "clubOrCompany": null,
+                    "id": 75,
+                    "laps": 3,
+                    "memberNames": "[\"Allan Pedersen\",\"Tobias Blak Pedersen\"]",
+                    "name": "Pedersen",
+                    "participantId": "8471640",
+                    "registrations": [
+                        {
+                            "id": 87,
+                            "rfidCode": "0169733636",
+                            "time": "2026-02-28T11:51:51.391436"
+                        },
+                        {
+                            "id": 127,
+                            "rfidCode": "0169733636",
+                            "time": "2026-02-28T13:28:39.648506"
+                        },
+                        {
+                            "id": 173,
+                            "rfidCode": "0169733636",
+                            "time": "2026-02-28T15:26:27.342536"
+                        }
+                    ],
+                    "rfid": "0169733636",
+                    "startNumber": 33
+                },
+                {
+                    "clubOrCompany": "De bærende stolper",
+                    "id": 76,
+                    "laps": 4,
+                    "memberNames": "[\"Alexander Nelmark Nissen\",\"Patrick Nelmark\"]",
+                    "name": "De bærende stolper",
+                    "participantId": "8471762",
+                    "registrations": [
+                        {
+                            "id": 63,
+                            "rfidCode": "0171790084",
+                            "time": "2026-02-28T11:12:09.828419"
+                        },
+                        {
+                            "id": 104,
+                            "rfidCode": "0171790084",
+                            "time": "2026-02-28T12:24:47.182702"
+                        },
+                        {
+                            "id": 138,
+                            "rfidCode": "0171790084",
+                            "time": "2026-02-28T13:51:47.840323"
+                        },
+                        {
+                            "id": 164,
+                            "rfidCode": "0171790084",
+                            "time": "2026-02-28T15:16:44.159794"
+                        }
+                    ],
+                    "rfid": "0171790084",
+                    "startNumber": 34
+                },
+                {
+                    "clubOrCompany": "Gibbon Gym",
+                    "id": 77,
+                    "laps": 4,
+                    "memberNames": "[\"Camilla Koch\",\"Michèle Due Pomowski\"]",
+                    "name": "Team MC",
+                    "participantId": "8475448",
+                    "registrations": [
+                        {
+                            "id": 75,
+                            "rfidCode": "0295527684",
+                            "time": "2026-02-28T11:27:24.098165"
+                        },
+                        {
+                            "id": 112,
+                            "rfidCode": "0295527684",
+                            "time": "2026-02-28T12:49:23.125522"
+                        },
+                        {
+                            "id": 143,
+                            "rfidCode": "0295527684",
+                            "time": "2026-02-28T14:09:06.26579"
+                        },
+                        {
+                            "id": 171,
+                            "rfidCode": "0295527684",
+                            "time": "2026-02-28T15:25:30.985972"
+                        }
+                    ],
+                    "rfid": "0295527684",
+                    "startNumber": 35
+                },
+                {
+                    "clubOrCompany": null,
+                    "id": 78,
+                    "laps": 4,
+                    "memberNames": "[\"Rasmus Dorph\",\"Michael Christensen\"]",
+                    "name": "Team Husk at lege",
+                    "participantId": "8485967",
+                    "registrations": [
+                        {
+                            "id": 86,
+                            "rfidCode": "0169861380",
+                            "time": "2026-02-28T11:51:12.354979"
+                        },
+                        {
+                            "id": 125,
+                            "rfidCode": "0169861380",
+                            "time": "2026-02-28T13:24:57.314163"
+                        },
+                        {
+                            "id": 151,
+                            "rfidCode": "0169861380",
+                            "time": "2026-02-28T14:47:55.744284"
+                        },
+                        {
+                            "id": 185,
+                            "rfidCode": "0169861380",
+                            "time": "2026-02-28T15:59:10.057812"
+                        }
+                    ],
+                    "rfid": "0169861380",
+                    "startNumber": 36
+                },
+                {
+                    "clubOrCompany": null,
+                    "id": 79,
+                    "laps": 4,
+                    "memberNames": "[\"Simon Madsen\",\"Mohammed El-Natour\"]",
+                    "name": "De 2 gutter",
+                    "participantId": "8492481",
+                    "registrations": [
+                        {
+                            "id": 84,
+                            "rfidCode": "0305091844",
+                            "time": "2026-02-28T11:43:57.469198"
+                        },
+                        {
+                            "id": 114,
+                            "rfidCode": "0305091844",
+                            "time": "2026-02-28T12:55:01.990429"
+                        },
+                        {
+                            "id": 145,
+                            "rfidCode": "0305091844",
+                            "time": "2026-02-28T14:13:05.041961"
+                        },
+                        {
+                            "id": 179,
+                            "rfidCode": "0305091844",
+                            "time": "2026-02-28T15:41:53.836514"
+                        }
+                    ],
+                    "rfid": "0305091844",
+                    "startNumber": 37
+                },
+                {
+                    "clubOrCompany": null,
+                    "id": 80,
+                    "laps": 6,
+                    "memberNames": "[\"Simon Ruff\",\"Channie Ruff\"]",
+                    "name": "De hurtige kaniner",
+                    "participantId": "8508190",
+                    "registrations": [
+                        {
+                            "id": 68,
+                            "rfidCode": "0308377092",
+                            "time": "2026-02-28T11:14:19.143272"
+                        },
+                        {
+                            "id": 94,
+                            "rfidCode": "0308377092",
+                            "time": "2026-02-28T12:11:17.805792"
+                        },
+                        {
+                            "id": 121,
+                            "rfidCode": "0308377092",
+                            "time": "2026-02-28T13:20:02.306004"
+                        },
+                        {
+                            "id": 148,
+                            "rfidCode": "0308377092",
+                            "time": "2026-02-28T14:20:55.182184"
+                        },
+                        {
+                            "id": 166,
+                            "rfidCode": "0308377092",
+                            "time": "2026-02-28T15:17:50.804703"
+                        },
+                        {
+                            "id": 188,
+                            "rfidCode": "0308377092",
+                            "time": "2026-02-28T16:04:26.270969"
+                        }
+                    ],
+                    "rfid": "0308377092",
+                    "startNumber": 38
+                },
+                {
+                    "clubOrCompany": null,
+                    "id": 81,
+                    "laps": 4,
+                    "memberNames": "[\"Esben Petersen\",\"Sebastian Esbjerg\"]",
+                    "name": "Rainbow Runners",
+                    "participantId": "8510746",
+                    "registrations": [
+                        {
+                            "id": 74,
+                            "rfidCode": "0307037956",
+                            "time": "2026-02-28T11:25:24.102064"
+                        },
+                        {
+                            "id": 109,
+                            "rfidCode": "0307037956",
+                            "time": "2026-02-28T12:40:52.898882"
+                        },
+                        {
+                            "id": 144,
+                            "rfidCode": "0307037956",
+                            "time": "2026-02-28T14:10:36.754397"
+                        },
+                        {
+                            "id": 178,
+                            "rfidCode": "0307037956",
+                            "time": "2026-02-28T15:39:15.493156"
+                        }
+                    ],
+                    "rfid": "0307037956",
+                    "startNumber": 39
+                },
+                {
+                    "clubOrCompany": null,
+                    "id": 82,
+                    "laps": 2,
+                    "memberNames": "[\"Amalie Roost Rasmussen\",\"Katrine Holst\"]",
+                    "name": "Kaos & Kramper",
+                    "participantId": "8514990",
+                    "registrations": [
+                        {
+                            "id": 85,
+                            "rfidCode": "0303587332",
+                            "time": "2026-02-28T11:51:07.543154"
+                        },
+                        {
+                            "id": 175,
+                            "rfidCode": "0303587332",
+                            "time": "2026-02-28T15:27:49.64339"
+                        }
+                    ],
+                    "rfid": "0303587332",
+                    "startNumber": 40
+                },
+                {
+                    "clubOrCompany": null,
+                    "id": 83,
+                    "laps": 3,
+                    "memberNames": "[\"William Kjærbye Jensen\",\"Tobias Bøje\"]",
+                    "name": "Dansk ungkvæg",
+                    "participantId": "8515497",
+                    "registrations": [
+                        {
+                            "id": 88,
+                            "rfidCode": "0297688836",
+                            "time": "2026-02-28T11:53:26.32241"
+                        },
+                        {
+                            "id": 128,
+                            "rfidCode": "0297688836",
+                            "time": "2026-02-28T13:30:27.967411"
+                        },
+                        {
+                            "id": 169,
+                            "rfidCode": "0297688836",
+                            "time": "2026-02-28T15:20:38.188831"
+                        }
+                    ],
+                    "rfid": "0297688836",
+                    "startNumber": 41
+                },
+                {
+                    "clubOrCompany": "Pilborg Fitness :-)",
+                    "id": 84,
+                    "laps": 4,
+                    "memberNames": "[\"Henrik Pilborg\",\"Marie Pilborg\"]",
+                    "name": "Pilborg mum and dad",
+                    "participantId": "8529287",
+                    "registrations": [
+                        {
+                            "id": 76,
+                            "rfidCode": "0307425284",
+                            "time": "2026-02-28T11:29:59.423809"
+                        },
+                        {
+                            "id": 111,
+                            "rfidCode": "0307425284",
+                            "time": "2026-02-28T12:47:14.661116"
+                        },
+                        {
+                            "id": 131,
+                            "rfidCode": "0307425284",
+                            "time": "2026-02-28T13:41:27.829028"
+                        },
+                        {
+                            "id": 174,
+                            "rfidCode": "0307425284",
+                            "time": "2026-02-28T15:27:23.119081"
+                        }
+                    ],
+                    "rfid": "0307425284",
+                    "startNumber": 42
+                }
+            ],
+            "id": 6,
+            "name": "Hold",
+            "startTime": "10:15:00",
+            "type": null
+        }
+    ],
+    "startDate": "2026-02-28"
+}
