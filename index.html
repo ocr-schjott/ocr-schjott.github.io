@@ -1,21 +1,92 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html lang="da" data-theme="dark">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="styles.css" />
-    <title>6 timers sommer 2025 results</title>
+    <title>6 Timers OCR — Resultater</title>
+    <link rel="icon" href="ocr.png" type="image/png" />
   </head>
   <body>
-    <h1>Resultater - 6 timers OCR sommer 2025</h1>
-    <div class="results">
-      <h2>Solo kvinder</h2>
-      <ul id="soloFemales" class="athletes-container"></ul>
-      <h2>Solo herrer</h2>
-      <ul id="soloMales" class="athletes-container"></ul>
-      <h2>Hold</h2>
-      <ul id="teams" class="athletes-container"></ul>
-    </div>
-    <script src="results.js"></script>
+    <!-- Theme toggle -->
+    <button class="theme-toggle" id="themeToggle" aria-label="Skift tema">
+      <svg
+        class="icon sun"
+        viewBox="0 0 24 24"
+        fill="none"
+        stroke="currentColor"
+        stroke-width="2"
+      >
+        <circle cx="12" cy="12" r="5" />
+        <line x1="12" y1="1" x2="12" y2="3" />
+        <line x1="12" y1="21" x2="12" y2="23" />
+        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64" />
+        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78" />
+        <line x1="1" y1="12" x2="3" y2="12" />
+        <line x1="21" y1="12" x2="23" y2="12" />
+        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36" />
+        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22" />
+      </svg>
+      <svg
+        class="icon moon"
+        viewBox="0 0 24 24"
+        fill="none"
+        stroke="currentColor"
+        stroke-width="2"
+      >
+        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z" />
+      </svg>
+    </button>
+
+    <header class="site-header">
+      <div class="logo-area">
+        <img src="ocr.png" alt="6 timers OCR logo" class="logo" />
+        <div class="header-text">
+          <h1>6 Timers OCR</h1>
+          <p class="subtitle">Resultater</p>
+        </div>
+      </div>
+    </header>
+
+    <main class="landing-events">
+      <h2 class="landing-heading">V&aelig;lg et event</h2>
+      <div class="event-cards">
+        <a href="vinter-2026.html" class="event-card">
+          <div class="event-card-icon">&#10052;</div>
+          <div class="event-card-body">
+            <h3>Vinter 2026</h3>
+            <p class="event-card-date">28. februar 2026</p>
+            <p class="event-card-desc">6 timers OCR &mdash; Vinter edition</p>
+          </div>
+          <div class="event-card-arrow">&rarr;</div>
+        </a>
+        <a href="sommer-2025.html" class="event-card">
+          <div class="event-card-icon">&#9728;</div>
+          <div class="event-card-body">
+            <h3>Sommer 2025</h3>
+            <p class="event-card-date">7. juni 2025</p>
+            <p class="event-card-desc">6 timers OCR &mdash; Sommer edition</p>
+          </div>
+          <div class="event-card-arrow">&rarr;</div>
+        </a>
+      </div>
+    </main>
+
+    <footer class="site-footer">
+      <p>6 Timers OCR &copy; 2025&ndash;2026</p>
+    </footer>
+
+    <script>
+      // Theme toggle only on landing page
+      const themeToggle = document.getElementById("themeToggle");
+      const savedTheme = localStorage.getItem("ocr-theme") || "dark";
+      document.documentElement.setAttribute("data-theme", savedTheme);
+      themeToggle.addEventListener("click", () => {
+        const current = document.documentElement.getAttribute("data-theme");
+        const next = current === "dark" ? "light" : "dark";
+        document.documentElement.setAttribute("data-theme", next);
+        localStorage.setItem("ocr-theme", next);
+      });
+    </script>
   </body>
 </html>

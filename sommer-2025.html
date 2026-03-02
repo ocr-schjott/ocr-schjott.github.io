@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="da" data-theme="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Sommer 2025 — 6 Timers OCR</title>
+    <link rel="icon" href="ocr.png" type="image/png" />
+  </head>
+  <body>
+    <!-- Theme toggle -->
+    <button class="theme-toggle" id="themeToggle" aria-label="Skift tema">
+      <svg
+        class="icon sun"
+        viewBox="0 0 24 24"
+        fill="none"
+        stroke="currentColor"
+        stroke-width="2"
+      >
+        <circle cx="12" cy="12" r="5" />
+        <line x1="12" y1="1" x2="12" y2="3" />
+        <line x1="12" y1="21" x2="12" y2="23" />
+        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64" />
+        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78" />
+        <line x1="1" y1="12" x2="3" y2="12" />
+        <line x1="21" y1="12" x2="23" y2="12" />
+        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36" />
+        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22" />
+      </svg>
+      <svg
+        class="icon moon"
+        viewBox="0 0 24 24"
+        fill="none"
+        stroke="currentColor"
+        stroke-width="2"
+      >
+        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z" />
+      </svg>
+    </button>
+
+    <header class="site-header">
+      <div class="logo-area">
+        <a href="index.html"
+          ><img src="ocr.png" alt="6 timers OCR logo" class="logo"
+        /></a>
+        <div class="header-text">
+          <h1>6 Timers OCR</h1>
+          <p class="subtitle">&#9728; Sommer 2025</p>
+        </div>
+      </div>
+      <div class="event-meta">
+        <span class="event-date-badge">7. juni 2025</span>
+        <a href="index.html" class="back-link">&larr; Alle events</a>
+      </div>
+    </header>
+
+    <div class="category-filters" id="categoryFilters">
+      <button class="pill active" data-category="all">Alle</button>
+      <button class="pill" data-category="soloMales">Solo Herrer</button>
+      <button class="pill" data-category="soloFemales">Solo Damer</button>
+      <button class="pill" data-category="teams">Hold</button>
+    </div>
+
+    <main class="results-container" id="resultsContainer"></main>
+
+    <div class="overlay-backdrop" id="overlayBackdrop">
+      <div class="detail-overlay" id="detailOverlay"></div>
+    </div>
+
+    <footer class="site-footer">
+      <p>6 Timers OCR &copy; 2025&ndash;2026</p>
+    </footer>
+
+    <script>
+      const EVENT_KEY = "2025_winter";
+    </script>
+    <script src="app.js"></script>
+  </body>
+</html>
