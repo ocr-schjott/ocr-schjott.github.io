@@ -23,6 +23,8 @@ const EVENT_CONFIG = {
 const SIX_HOURS_MS = 6 * 60 * 60 * 1000;
 
 let currentCategory = "all";
+let loadedData = null;
+let loadedCfg = null;
 
 // ---- DOM refs ----
 const resultsContainer = document.getElementById("resultsContainer");
@@ -76,10 +78,12 @@ async function loadEvent(eventKey) {
     const raw = await res.json();
     const normalized =
       cfg.format === "v1" ? normalizeV1(raw) : normalizeV2(raw);
+    loadedData = normalized;
+    loadedCfg = cfg;
     renderResults(normalized, cfg);
   } catch (err) {
     console.error(err);
-    resultsContainer.innerHTML = `<div class="loading" style="color:var(--bronze)">Kunne ikke indlæse data.</div>`;
+    resultsContainer.innerHTML = `<div class="loading" style="color:var(--accent)">Kunne ikke indlæse data.</div>`;
   }
 }
 
@@ -294,12 +298,79 @@ function renderResults(data, cfg) {
 
   resultsContainer.innerHTML = "";
 
+  if (currentCategory === "all") {
+    // Merge all entries into one table, re-ranked together
+    const allEntries = [
+      ...data.soloMales.map((e) => ({ ...e, catLabel: "Solo Herrer" })),
+      ...data.soloFemales.map((e) => ({ ...e, catLabel: "Solo Damer" })),
+      ...data.teams.map((e) => ({ ...e, catLabel: "Hold" })),
+    ]
+      .sort((a, b) => b.laps - a.laps || lastValidTime(a) - lastValidTime(b))
+      .map((e, i) => ({ ...e, mergedRank: i + 1 }));
+
+    const section = document.createElement("div");
+    section.className = "category-section";
+    section.dataset.category = "all";
+    section.innerHTML = `
+      <div class="category-title">
+        <span class="cat-icon">🏁</span>
+        Alle deltagere
+        <span class="cat-count">${allEntries.length} deltagere</span>
+      </div>
+    `;
+
+    const table = document.createElement("div");
+    table.className = "results-table";
+    const headerRow = document.createElement("div");
+    headerRow.className = "results-row table-header";
+    headerRow.innerHTML = `
+      <div>#</div>
+      <div>Navn</div>
+      <div>Runder</div>
+      <div>Tid</div>
+      <div>Dist.</div>
+    `;
+    table.appendChild(headerRow);
+
+    for (const entry of allEntries) {
+      const row = document.createElement("div");
+      row.className = "results-row";
+      row.addEventListener("click", () => showDetail(entry, cfg));
+
+      const clubHtml = entry.club
+        ? `<span class="athlete-club">${entry.club}</span>`
+        : entry.members
+          ? `<span class="athlete-club">${entry.members.join(", ")}</span>`
+          : "";
+
+      const validRounds = entry.rounds.filter((r) => r.valid);
+      const totalMs = validRounds.reduce((sum, r) => sum + r.durationMs, 0);
+
+      row.innerHTML = `
+        <div class="rank-cell">${entry.mergedRank}</div>
+        <div class="name-cell">
+          <span class="athlete-name">${entry.name}<span class="cat-tag">${entry.catLabel}</span></span>
+          ${clubHtml}
+        </div>
+        <div class="laps-cell">${entry.laps}</div>
+        <div class="time-cell">${formatDuration(totalMs)}</div>
+        <div class="distance-cell">${entry.laps * cfg.lapKm} km</div>
+      `;
+
+      table.appendChild(row);
+    }
+
+    section.appendChild(table);
+    resultsContainer.appendChild(section);
+    return;
+  }
+
   for (const cat of categories) {
     const section = document.createElement("div");
     section.className = "category-section";
     section.dataset.category = cat.key;
 
-    if (currentCategory !== "all" && currentCategory !== cat.key) {
+    if (currentCategory !== cat.key) {
       section.classList.add("hidden");
     }
 
@@ -330,15 +401,6 @@ function renderResults(data, cfg) {
       row.className = "results-row";
       row.addEventListener("click", () => showDetail(entry, cfg));
 
-      const rankClass =
-        entry.rank === 1
-          ? "gold"
-          : entry.rank === 2
-            ? "silver"
-            : entry.rank === 3
-              ? "bronze"
-              : "";
-
       const clubHtml = entry.club
         ? `<span class="athlete-club">${entry.club}</span>`
         : entry.members
@@ -349,7 +411,7 @@ function renderResults(data, cfg) {
       const totalMs = validRounds.reduce((sum, r) => sum + r.durationMs, 0);
 
       row.innerHTML = `
-        <div class="rank-cell ${rankClass}">${entry.rank}</div>
+        <div class="rank-cell">${entry.rank}</div>
         <div class="name-cell">
           <span class="athlete-name">${entry.name}</span>
           ${clubHtml}
@@ -368,6 +430,10 @@ function renderResults(data, cfg) {
 }
 
 function filterCategories() {
+  if (loadedData && loadedCfg) {
+    renderResults(loadedData, loadedCfg);
+    return;
+  }
   document.querySelectorAll(".category-section").forEach((s) => {
     if (currentCategory === "all" || s.dataset.category === currentCategory) {
       s.classList.remove("hidden");

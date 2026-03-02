@@ -27,9 +27,7 @@
   --accent-glow: rgba(108, 99, 255, 0.25);
   --border: #2a2d3a;
   --border-hover: #3d4155;
-  --gold: #fbbf24;
-  --silver: #94a3b8;
-  --bronze: #d97706;
+
   --pill-bg: #252839;
   --pill-active-bg: var(--accent);
   --pill-active-text: #fff;
@@ -59,9 +57,7 @@
   --accent-glow: rgba(80, 70, 229, 0.15);
   --border: #e2e4eb;
   --border-hover: #c8cad5;
-  --gold: #d97706;
-  --silver: #64748b;
-  --bronze: #b45309;
+
   --pill-bg: #e8e9ed;
   --pill-active-bg: var(--accent);
   --pill-active-text: #fff;
@@ -179,7 +175,7 @@ ul {
   width: 100%;
   background: var(--header-bg);
   border-bottom: 1px solid var(--border);
-  padding: 2rem 1rem 1.5rem;
+  padding: 1.25rem 0.75rem 1rem;
   transition: background var(--transition);
 }
 
@@ -193,8 +189,8 @@ ul {
 }
 
 .logo {
-  width: 72px;
-  height: 72px;
+  width: 56px;
+  height: 56px;
   border-radius: var(--radius-md);
   object-fit: contain;
   filter: drop-shadow(0 2px 8px rgba(108, 99, 255, 0.3));
@@ -206,7 +202,7 @@ ul {
 }
 
 .header-text h1 {
-  font-size: 1.75rem;
+  font-size: 1.3rem;
   font-weight: 800;
   letter-spacing: -0.02em;
   background: linear-gradient(135deg, var(--accent), #a78bfa);
@@ -216,7 +212,7 @@ ul {
 }
 
 .header-text .subtitle {
-  font-size: 0.95rem;
+  font-size: 0.8rem;
   color: var(--text-secondary);
   font-weight: 500;
   letter-spacing: 0.08em;
@@ -296,22 +292,22 @@ ul {
 /* ===== Category Filter Pills ===== */
 .category-filters {
   display: flex;
-  gap: 0.5rem;
+  gap: 0.4rem;
   justify-content: center;
   flex-wrap: wrap;
-  padding: 1rem;
+  padding: 0.6rem 0.5rem;
   max-width: var(--max-width);
   width: 100%;
 }
 
 .pill {
-  padding: 0.45rem 1.15rem;
+  padding: 0.35rem 0.9rem;
   border-radius: 999px;
   border: none;
   background: var(--pill-bg);
   color: var(--text-secondary);
   font-family: inherit;
-  font-size: 0.85rem;
+  font-size: 0.78rem;
   font-weight: 600;
   cursor: pointer;
   transition: all var(--transition);
@@ -332,10 +328,10 @@ ul {
 .results-container {
   width: 100%;
   max-width: var(--max-width);
-  padding: 0 1rem 2rem;
+  padding: 0 0 1rem;
   display: flex;
   flex-direction: column;
-  gap: 1.5rem;
+  gap: 1rem;
 }
 
 /* ===== Category Section ===== */
@@ -355,27 +351,27 @@ ul {
 }
 
 .category-title {
-  padding: 1rem 1.25rem;
-  font-size: 1.05rem;
+  padding: 0.6rem 0.6rem;
+  font-size: 0.85rem;
   font-weight: 700;
   color: var(--text-primary);
   border-bottom: 1px solid var(--border);
   display: flex;
   align-items: center;
-  gap: 0.6rem;
+  gap: 0.5rem;
 }
 
 .category-title .cat-icon {
-  font-size: 1.2rem;
+  font-size: 1rem;
 }
 
 .category-title .cat-count {
   margin-left: auto;
-  font-size: 0.8rem;
+  font-size: 0.7rem;
   font-weight: 600;
   color: var(--text-muted);
   background: var(--pill-bg);
-  padding: 0.2rem 0.6rem;
+  padding: 0.15rem 0.5rem;
   border-radius: 999px;
 }
 
@@ -386,17 +382,31 @@ ul {
 
 .results-row {
   display: grid;
-  grid-template-columns: 52px 1fr 65px 75px 65px;
+  grid-template-columns: 36px 1fr 45px 58px 50px;
   align-items: center;
-  padding: 0.65rem 1.25rem;
+  padding: 0.45rem 0.6rem;
   border-bottom: 1px solid var(--border);
   cursor: pointer;
   transition: background var(--transition);
-  gap: 0.5rem;
+  gap: 0.35rem;
 }
 
 .results-row:last-child {
   border-bottom: none;
+}
+
+/* Category tag inside name cell for "Alle" view */
+.cat-tag {
+  display: inline-block;
+  font-size: 0.65rem;
+  font-weight: 500;
+  padding: 0.1rem 0.4rem;
+  border-radius: 4px;
+  background: var(--pill-bg);
+  color: var(--text-secondary);
+  white-space: nowrap;
+  vertical-align: middle;
+  margin-left: 0.4rem;
 }
 
 .results-row:hover {
@@ -405,12 +415,12 @@ ul {
 
 .results-row.table-header {
   cursor: default;
-  font-size: 0.75rem;
+  font-size: 0.68rem;
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 0.06em;
   color: var(--text-muted);
-  padding: 0.5rem 1.25rem;
+  padding: 0.4rem 0.6rem;
   background: var(--rank-bg);
 }
 
@@ -421,9 +431,9 @@ ul {
 /* Rank */
 .rank-cell {
   font-weight: 800;
-  font-size: 1rem;
-  width: 36px;
-  height: 36px;
+  font-size: 0.8rem;
+  width: 30px;
+  height: 30px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -431,21 +441,6 @@ ul {
   background: var(--rank-bg);
   color: var(--text-primary);
   flex-shrink: 0;
-}
-
-.rank-cell.gold {
-  background: linear-gradient(135deg, #fbbf24, #f59e0b);
-  color: #1a1d27;
-}
-
-.rank-cell.silver {
-  background: linear-gradient(135deg, #cbd5e1, #94a3b8);
-  color: #1a1d27;
-}
-
-.rank-cell.bronze {
-  background: linear-gradient(135deg, #fbbf24, #d97706);
-  color: #1a1d27;
 }
 
 /* Name area */
@@ -457,7 +452,7 @@ ul {
 
 .athlete-name {
   font-weight: 600;
-  font-size: 0.95rem;
+  font-size: 0.82rem;
   color: var(--text-primary);
   white-space: nowrap;
   overflow: hidden;
@@ -465,7 +460,7 @@ ul {
 }
 
 .athlete-club {
-  font-size: 0.8rem;
+  font-size: 0.72rem;
   color: var(--text-muted);
   white-space: nowrap;
   overflow: hidden;
@@ -475,7 +470,7 @@ ul {
 /* Laps */
 .laps-cell {
   font-weight: 700;
-  font-size: 0.95rem;
+  font-size: 0.82rem;
   color: var(--accent);
   text-align: center;
   white-space: nowrap;
@@ -483,7 +478,7 @@ ul {
 
 /* Total time */
 .time-cell {
-  font-size: 0.85rem;
+  font-size: 0.78rem;
   font-weight: 600;
   font-variant-numeric: tabular-nums;
   color: var(--text-secondary);
@@ -493,7 +488,7 @@ ul {
 
 /* Distance */
 .distance-cell {
-  font-size: 0.85rem;
+  font-size: 0.78rem;
   font-weight: 600;
   color: var(--text-secondary);
   text-align: center;
@@ -697,69 +692,143 @@ ul {
 
 /* ===== Responsive ===== */
 @media (max-width: 600px) {
+  .site-header {
+    padding: 0.75rem 0.5rem;
+  }
+
   .header-text h1 {
-    font-size: 1.35rem;
+    font-size: 1.1rem;
+  }
+
+  .header-text .subtitle {
+    font-size: 0.7rem;
   }
 
   .logo {
-    width: 56px;
-    height: 56px;
+    width: 44px;
+    height: 44px;
+  }
+
+  .logo-area {
+    gap: 0.75rem;
   }
 
   .event-tabs {
-    gap: 0.35rem;
-    padding: 1rem 0.75rem 0;
+    gap: 0.25rem;
+    padding: 0.5rem 0.25rem 0;
   }
 
   .tab {
-    padding: 0.6rem 0.75rem;
-    font-size: 0.82rem;
+    padding: 0.45rem 0.5rem;
+    font-size: 0.75rem;
+  }
+
+  .category-section {
+    border-radius: 0;
+    border-left: none;
+    border-right: none;
   }
 
   .results-row {
-    grid-template-columns: 36px 1fr 50px 60px 50px;
-    padding: 0.55rem 0.75rem;
-    gap: 0.5rem;
+    grid-template-columns: 28px 1fr 38px 52px 42px;
+    padding: 0.35rem 0.4rem;
+    gap: 0.25rem;
+  }
+
+  .results-row.table-header {
+    padding: 0.3rem 0.4rem;
+    font-size: 0.6rem;
   }
 
   .rank-cell {
-    width: 30px;
-    height: 30px;
-    font-size: 0.85rem;
+    width: 24px;
+    height: 24px;
+    font-size: 0.7rem;
   }
 
   .athlete-name {
-    font-size: 0.88rem;
+    font-size: 0.75rem;
+  }
+
+  .athlete-club {
+    font-size: 0.65rem;
+  }
+
+  .cat-tag {
+    font-size: 0.55rem;
+    padding: 0.05rem 0.3rem;
+    margin-left: 0.25rem;
+  }
+
+  .laps-cell {
+    font-size: 0.75rem;
+  }
+
+  .time-cell,
+  .distance-cell {
+    font-size: 0.7rem;
   }
 
   .category-title {
-    padding: 0.75rem 0.75rem;
-    font-size: 0.95rem;
+    padding: 0.5rem 0.4rem;
+    font-size: 0.78rem;
+  }
+
+  .category-filters {
+    padding: 0.4rem 0.25rem;
+    gap: 0.3rem;
+  }
+
+  .pill {
+    padding: 0.3rem 0.7rem;
+    font-size: 0.72rem;
   }
 
   .round-row {
-    padding: 0.5rem 0.75rem;
-    font-size: 0.82rem;
+    padding: 0.4rem 0.5rem;
+    font-size: 0.78rem;
+  }
+
+  .detail-overlay {
+    border-radius: var(--radius-md);
+    max-height: 85vh;
   }
 
   .detail-header {
-    padding: 1rem 1rem 0.75rem;
+    padding: 0.75rem 0.75rem 0.6rem;
   }
 
   .detail-header .detail-name {
-    font-size: 1.15rem;
+    font-size: 1rem;
+  }
+
+  .detail-header .detail-event {
+    font-size: 0.7rem;
+  }
+
+  .detail-stat .stat-value {
+    font-size: 1.2rem;
   }
 
   .theme-toggle {
-    top: 0.65rem;
-    right: 0.65rem;
-    width: 38px;
-    height: 38px;
+    top: 0.5rem;
+    right: 0.5rem;
+    width: 34px;
+    height: 34px;
   }
 
   .theme-toggle .icon {
-    width: 17px;
-    height: 17px;
+    width: 15px;
+    height: 15px;
+  }
+
+  .event-meta {
+    margin-top: 0.4rem;
+  }
+
+  .event-date-badge {
+    font-size: 0.72rem;
+    padding: 0.2rem 0.6rem;
   }
 }
 
@@ -768,33 +837,22 @@ ul {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 1.5rem;
-  margin-top: 0.75rem;
+  gap: 1rem;
+  margin-top: 0.4rem;
   max-width: var(--max-width);
   margin-inline: auto;
 }
 
 .event-date-badge {
-  font-size: 0.85rem;
+  font-size: 0.78rem;
   font-weight: 600;
   color: var(--text-secondary);
   background: var(--pill-bg);
-  padding: 0.3rem 0.9rem;
+  padding: 0.2rem 0.7rem;
   border-radius: 999px;
 }
 
-.back-link {
-  font-size: 0.85rem;
-  font-weight: 600;
-  color: var(--accent);
-  text-decoration: none;
-  transition: color var(--transition);
-}
 
-.back-link:hover {
-  color: var(--accent-hover);
-  text-decoration: underline;
-}
 
 /* ===== Landing Page ===== */
 .landing-events {
