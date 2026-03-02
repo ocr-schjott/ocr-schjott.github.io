@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="da" data-theme="dark">
+<html lang="da">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -79,8 +79,19 @@
     <script>
       // Theme toggle only on landing page
       const themeToggle = document.getElementById("themeToggle");
-      const savedTheme = localStorage.getItem("ocr-theme") || "dark";
+      function getSystemTheme() {
+        return window.matchMedia("(prefers-color-scheme: light)").matches ? "light" : "dark";
+      }
+      const savedTheme = localStorage.getItem("ocr-theme") || getSystemTheme();
       document.documentElement.setAttribute("data-theme", savedTheme);
+
+      // Listen for system theme changes (only when no manual preference)
+      window.matchMedia("(prefers-color-scheme: light)").addEventListener("change", () => {
+        if (!localStorage.getItem("ocr-theme")) {
+          document.documentElement.setAttribute("data-theme", getSystemTheme());
+        }
+      });
+
       themeToggle.addEventListener("click", () => {
         const current = document.documentElement.getAttribute("data-theme");
         const next = current === "dark" ? "light" : "dark";

@@ -9,6 +9,64 @@
   --shadow-md: 0 4px 12px rgba(0, 0, 0, 0.12);
   --shadow-lg: 0 8px 30px rgba(0, 0, 0, 0.18);
   --max-width: 900px;
+
+  /* Default to dark theme variables (applied before JS) */
+  --bg-primary: #0f1117;
+  --bg-secondary: #1a1d27;
+  --bg-card: #1e2130;
+  --bg-card-hover: #252839;
+  --bg-overlay: rgba(0, 0, 0, 0.7);
+  --bg-detail: #1a1d27;
+  --text-primary: #e8e9ed;
+  --text-secondary: #9a9db0;
+  --text-muted: #5d6075;
+  --accent: #6c63ff;
+  --accent-hover: #5a52e0;
+  --accent-glow: rgba(108, 99, 255, 0.25);
+  --border: #2a2d3a;
+  --border-hover: #3d4155;
+  --pill-bg: #252839;
+  --pill-active-bg: var(--accent);
+  --pill-active-text: #fff;
+  --tab-bg: transparent;
+  --tab-active-bg: var(--bg-card);
+  --tab-border: var(--accent);
+  --rank-bg: rgba(108, 99, 255, 0.12);
+  --scrollbar-track: #1a1d27;
+  --scrollbar-thumb: #2a2d3a;
+  --header-bg: linear-gradient(135deg, #1a1d27 0%, #0f1117 100%);
+  --shadow-card: 0 2px 8px rgba(0, 0, 0, 0.3);
+}
+
+/* System preference: light → apply light defaults before JS */
+@media (prefers-color-scheme: light) {
+  :root {
+    --bg-primary: #f5f6fa;
+    --bg-secondary: #ffffff;
+    --bg-card: #ffffff;
+    --bg-card-hover: #f0f1f5;
+    --bg-overlay: rgba(0, 0, 0, 0.4);
+    --bg-detail: #ffffff;
+    --text-primary: #1a1d27;
+    --text-secondary: #5d6075;
+    --text-muted: #9a9db0;
+    --accent: #5046e5;
+    --accent-hover: #4338ca;
+    --accent-glow: rgba(80, 70, 229, 0.15);
+    --border: #e2e4eb;
+    --border-hover: #c8cad5;
+    --pill-bg: #e8e9ed;
+    --pill-active-bg: var(--accent);
+    --pill-active-text: #fff;
+    --tab-bg: transparent;
+    --tab-active-bg: var(--bg-card);
+    --tab-border: var(--accent);
+    --rank-bg: rgba(80, 70, 229, 0.08);
+    --scrollbar-track: #f0f1f5;
+    --scrollbar-thumb: #d1d3dc;
+    --header-bg: linear-gradient(135deg, #ffffff 0%, #f5f6fa 100%);
+    --shadow-card: 0 2px 8px rgba(0, 0, 0, 0.06);
+  }
 }
 
 /* ---------- DARK THEME (default) ---------- */
@@ -168,6 +226,26 @@ ul {
 [data-theme="light"] .theme-toggle .moon {
   opacity: 1;
   transform: scale(1);
+}
+
+/* Before JS sets data-theme, use system preference for icons */
+:root:not([data-theme]) .theme-toggle .sun {
+  opacity: 1;
+  transform: scale(1);
+}
+:root:not([data-theme]) .theme-toggle .moon {
+  opacity: 0;
+  transform: scale(0.5);
+}
+@media (prefers-color-scheme: light) {
+  :root:not([data-theme]) .theme-toggle .sun {
+    opacity: 0;
+    transform: scale(0.5);
+  }
+  :root:not([data-theme]) .theme-toggle .moon {
+    opacity: 1;
+    transform: scale(1);
+  }
 }
 
 /* ===== Site Header ===== */
@@ -851,8 +929,6 @@ ul {
   padding: 0.2rem 0.7rem;
   border-radius: 999px;
 }
-
-
 
 /* ===== Landing Page ===== */
 .landing-events {

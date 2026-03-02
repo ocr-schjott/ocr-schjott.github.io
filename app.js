@@ -33,8 +33,18 @@ const detailOverlay = document.getElementById("detailOverlay");
 
 // ---- Theme toggle ----
 const themeToggle = document.getElementById("themeToggle");
-const savedTheme = localStorage.getItem("ocr-theme") || "dark";
+function getSystemTheme() {
+  return window.matchMedia("(prefers-color-scheme: light)").matches ? "light" : "dark";
+}
+const savedTheme = localStorage.getItem("ocr-theme") || getSystemTheme();
 document.documentElement.setAttribute("data-theme", savedTheme);
+
+// Listen for system theme changes (only applies when user hasn't set a manual preference)
+window.matchMedia("(prefers-color-scheme: light)").addEventListener("change", () => {
+  if (!localStorage.getItem("ocr-theme")) {
+    document.documentElement.setAttribute("data-theme", getSystemTheme());
+  }
+});
 
 themeToggle.addEventListener("click", () => {
   const current = document.documentElement.getAttribute("data-theme");
